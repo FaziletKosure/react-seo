@@ -332,6 +332,19 @@ footer i {
   margin-top: 12rem;
 }
 
+.charter-header {
+  text-align: center;
+}
+.charter-body-text span {
+  color: white;
+  background: black;
+  font-size: 2rem;
+}
+
+.charter-body-text p {
+  font-size: 1.3rem;
+}
+
 @media (max-width: 1600px) {
   .aboutpanel4 .circle img {
     width: 20rem;
