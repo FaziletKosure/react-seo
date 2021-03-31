@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import JoinMuna from "./components/JoinMuna";
+import Consumer from "./secreens/Consumer";
+import Company from "./secreens/Company";
+import About from "./secreens/About";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div id="container">
+      <Navbar />
+        <div id="main-content">
+      <Switch>
+        <Route path="/" exact component={Consumer} />
+        <Route path="/company" exact component={Company} />
+        <Route path="/About" exact component={About} />
+        <Route path="/join-muna" exact component={JoinMuna} />
+      </Switch>
+       </div>
+      <Footer/>
+        </div>
+    </Router>
   );
 }
 

@@ -1,38 +1,309 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+:root {
+  --primary-white: #ffffff;
+  --primary-light-grey: #F8F8F8;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+  --primary-hover-golden: #d0bf94;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgb(52, 58, 64);
+  --primary-black: #000;
+  --primary-blue: #1d2d9c;
+
+  --primary-link-light-grey: #6c757d;
+--primary-orange: #fec503; 
+--primary-footer-background-light-grey: #212529;
+--primary-footer-background-grey: #1a1d20;
+--primary-social-buttons-circle-dark-grey: #1a1d20;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+ font-family: 'Poppins', sans-serif !important;
+}
+/* ***********************  NAVBAR  **************** */
+nav {
+  /* max-width: 2000px; */
+  z-index: 2;
+}
+.logo {
+  width: 5rem;
+  margin-left: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* ********************  MENU LINKS  ******************** */
+nav a.nav-link {
+  cursor: pointer;
+}
+
+nav ul li {
+  /* text-transform: uppercase; */
+}
+
+.navbar-nav > li > a {
+  letter-spacing: 0.3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-black) !important;
+}
+
+.navbar-nav > li > a > button {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  background-color: #000;
+  letter-spacing: 0.35rem;
+}
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 4rem;
+  }
+  .navbar-brand {
+    width: 6rem;
+  }
+  nav {
+    margin: 0 !important;
+  }
+  .navbar-nav > li > a {
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+.navbar-nav > li > a > button {
+  font-size: 1rem;
+  font-weight:400;
+  margin-top:1rem;
+  
+}
+#navbarSupportedContent{
+  margin-top:0.01rem;
+}
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  color: #FF01FF !important;
+}
+.navbar-nav > li > a:hover {
+  color: #FF01FF !important;
+}
+/* ----------------------------- DISCOUNT  ----------------------------- */
+.discounts h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height:4rem;
+  letter-spacing:0.1rem;
+  padding-bottom:0.7rem;
+}
+
+.discounts p {
+  font-size: 1.4rem;
+}
+
+.discounts {
+ 
+  /* padding-top: 14rem; */
+  /* padding-bottom: 2rem; */
+}
+.discounts-left{
+   margin-top: 14rem;
+}
+.discount-img {
+  width:60rem;
+  height:50rem; 
+}
+.discount-btn-div{
+  width: 400px;
+  text-align:center;
+
+  /* margin: 0 auto 0 auto; */
+}
+.discount-btn-div button,.dataconsumer button{
+   display: block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background:#FF01FF;
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text);
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 7px #FF01FF
+ inset;
+  margin-bottom: 3.5rem;
+  margin-top:3.5rem;
+}
+ol li {
+  font-size: 1.40rem;
+}
+
+@media (max-width: 1600px) {
+  .discount-img {
+    width: 40rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (max-width: 768px) {
+  .discount-img {
+    width: 20rem;
+    height:25rem
+  }
+  .discounts h1,.dataconsumer h1 {
+  font-weight: 500 !important;
+  font-size: 2rem;
+}
+.discounts p {
+  font-size: 1rem;
+}
+ol li {
+  font-size: 1rem;
+}
+.discount-btn-div{
+  width: 320px;
+  
+}
+.discount-btn-div button,.dataconsumer button{
+  height:35px;
+  width: 300px;
+  font-size:1rem;
+ 
+}
+.joinmuna-img{
+  max-width:400px !important;
+  height:50vh;
+}
+
+
+}
+
+/* --------------------------  FOOTER --------------------------------   */
+
+
+
+footer {
+  padding: 4rem 0;
+  margin-bottom:0 !important;
+ 
+  
+}
+
+footer i {
+  color:#FF01FF;
+  font-size: 3rem;
+  padding-right: 25px;
+
+ 
+  
+}
+
+#container {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#main-content {
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/************************ BENEFITS *********************************/
+.benefits {
+  text-align: center;
+  padding-bottom: 2rem;
+   
+ 
 }
+.benefits .container,.discounts .container{
+  max-width:2000px !important;
+  
+  
+}
+.benefits .container{
+  background: var(--primary-light-grey);
+}
+.benefits h2 {
+  color: var(--primary-black);
+  font-size:2.2rem;
+  letter-spacing:0.35rem;
+   padding:1rem;
+   font-weight:bold;
+}
+
+.benefits p {
+  font-size:1.4rem;
+  font-weight:400;
+  line-height:2rem;
+}
+
+.benefits .circle {
+  position: relative;
+  margin: 1rem auto;
+  
+}
+
+.benefits .icon {
+  /* font-size: 2rem; */
+  color: var(--primary-white);
+ 
+  transform: translate(-50%, -50%);
+}
+
+/* .benefits .box {
+  height: 16rem;
+  padding: 0.625rem;
+  margin-right:1rem;
+  margin-left:1rem;
+  margin-bottom: 1.875rem;
+  transition: 0.3s ease-in-out;
+} */
+
+/* --------------------------- DATACONSUMER -------------------- */
+.dataconsumer{
+  text-align:center;
+}
+.dataconsumer h1{
+  font-size:3rem;
+  font-weight:bold;
+  margin-top:2rem;
+}
+
+.company button{
+  color:white;
+}
+
+/* ----------------------- JOINMUNA --------------- */
+.join-form{
+   margin-top: 14rem;
+}
+
+.joinmuna-img{
+  max-width:1200px;
+  height:80vh;
+}
+.form-control{
+  border:none !important;
+}
+
+.form-group input{
+  width:28rem;
+  padding:2rem;
+  margin-bottom:0.8rem;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+
