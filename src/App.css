@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 :root {
   --primary-white: #ffffff;
-  --primary-light-grey: #F8F8F8;
+  --primary-light-grey: #f8f8f8;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
   --primary-red: #ef4035;
@@ -13,18 +13,17 @@
   --primary-blue: #1d2d9c;
 
   --primary-link-light-grey: #6c757d;
---primary-orange: #fec503; 
---primary-footer-background-light-grey: #212529;
---primary-footer-background-grey: #1a1d20;
---primary-social-buttons-circle-dark-grey: #1a1d20;
+  --primary-orange: #fec503;
+  --primary-footer-background-light-grey: #212529;
+  --primary-footer-background-grey: #1a1d20;
+  --primary-social-buttons-circle-dark-grey: #1a1d20;
 }
 
 body {
- font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 /* ***********************  NAVBAR  **************** */
 nav {
-  /* max-width: 2000px; */
   z-index: 2;
 }
 .logo {
@@ -75,35 +74,33 @@ nav ul li {
     margin: 0 !important;
   }
   .navbar-nav > li > a {
-  font-size: 1rem;
-  font-weight: bold;
-  
-}
-.navbar-nav > li > a > button {
-  font-size: 1rem;
-  font-weight:400;
-  margin-top:1rem;
-  
-}
-#navbarSupportedContent{
-  margin-top:0.01rem;
-}
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .navbar-nav > li > a > button {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+  }
+  #navbarSupportedContent {
+    margin-top: 0.01rem;
+  }
 }
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus {
-  color: #FF01FF !important;
+  color: #ff01ff !important;
 }
 .navbar-nav > li > a:hover {
-  color: #FF01FF !important;
+  color: #ff01ff !important;
 }
 /* ----------------------------- DISCOUNT  ----------------------------- */
 .discounts h1 {
   font-weight: 700;
   font-size: 3rem;
-  line-height:4rem;
-  letter-spacing:0.1rem;
-  padding-bottom:0.7rem;
+  line-height: 4rem;
+  letter-spacing: 0.1rem;
+  padding-bottom: 0.7rem;
 }
 
 .discounts p {
@@ -111,43 +108,42 @@ nav ul li {
 }
 
 .discounts {
- 
   /* padding-top: 14rem; */
   /* padding-bottom: 2rem; */
 }
-.discounts-left{
-   margin-top: 14rem;
+.discounts-left {
+  margin-top: 14rem;
 }
 .discount-img {
-  width:60rem;
-  height:50rem; 
+  width: 60rem;
+  height: 50rem;
 }
-.discount-btn-div{
-  width: 400px;
-  text-align:center;
+.discount-btn-div {
+  width: 30rem;
+  text-align: center;
 
   /* margin: 0 auto 0 auto; */
 }
-.discount-btn-div button,.dataconsumer button{
-   display: block;
+.discount-btn-div button,
+.dataconsumer button {
+  display: block;
   cursor: pointer;
   outline: none;
   border: none;
-  background:#FF01FF;
-  width: 400px;
+  background: #ff01ff;
+  width: 500px;
   height: 50px;
   border-radius: 10px;
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text);
   background-size: 100% 100%;
-  box-shadow: 0 0 0 7px #FF01FF
- inset;
+  box-shadow: 0 0 0 7px #ff01ff inset;
   margin-bottom: 3.5rem;
-  margin-top:3.5rem;
+  margin-top: 3.5rem;
 }
 ol li {
-  font-size: 1.40rem;
+  font-size: 1.4rem;
 }
 
 @media (max-width: 1600px) {
@@ -159,54 +155,45 @@ ol li {
 @media (max-width: 768px) {
   .discount-img {
     width: 20rem;
-    height:25rem
+    height: 25rem;
   }
-  .discounts h1,.dataconsumer h1 {
-  font-weight: 500 !important;
-  font-size: 2rem;
-}
-.discounts p {
-  font-size: 1rem;
-}
-ol li {
-  font-size: 1rem;
-}
-.discount-btn-div{
-  width: 320px;
-  
-}
-.discount-btn-div button,.dataconsumer button{
-  height:35px;
-  width: 300px;
-  font-size:1rem;
- 
-}
-.joinmuna-img{
-  max-width:400px !important;
-  height:50vh;
-}
-
-
+  .discounts h1,
+  .dataconsumer h1 {
+    font-weight: 500 !important;
+    font-size: 2rem;
+  }
+  .discounts p {
+    font-size: 1rem;
+  }
+  ol li {
+    font-size: 1rem;
+  }
+  .discount-btn-div {
+    width: 320px;
+  }
+  .discount-btn-div button,
+  .dataconsumer button {
+    height: 35px;
+    width: 300px;
+    font-size: 1rem;
+  }
+  .joinmuna-img {
+    max-width: 400px !important;
+    height: 50vh;
+  }
 }
 
 /* --------------------------  FOOTER --------------------------------   */
 
-
-
 footer {
   padding: 4rem 0;
-  margin-bottom:0 !important;
- 
-  
+  margin-bottom: 0 !important;
 }
 
 footer i {
-  color:#FF01FF;
+  color: #ff01ff;
   font-size: 3rem;
   padding-right: 25px;
-
- 
-  
 }
 
 #container {
@@ -220,90 +207,175 @@ footer i {
 }
 
 /************************ BENEFITS *********************************/
-.benefits {
+.benefits,
+.aboutpanel4 {
   text-align: center;
   padding-bottom: 2rem;
-   
- 
 }
-.benefits .container,.discounts .container{
-  max-width:2000px !important;
-  
-  
+.benefits .container,
+.discounts .container,
+.aboutpanel4 .container {
+  max-width: 2000px !important;
 }
-.benefits .container{
+.benefits .container {
   background: var(--primary-light-grey);
 }
 .benefits h2 {
   color: var(--primary-black);
-  font-size:2.2rem;
-  letter-spacing:0.35rem;
-   padding:1rem;
-   font-weight:bold;
+  font-size: 2.2rem;
+  letter-spacing: 0.35rem;
+  padding: 1rem;
+  font-weight: bold;
 }
 
 .benefits p {
-  font-size:1.4rem;
-  font-weight:400;
-  line-height:2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
 }
 
 .benefits .circle {
   position: relative;
   margin: 1rem auto;
-  
 }
 
 .benefits .icon {
-  /* font-size: 2rem; */
   color: var(--primary-white);
- 
   transform: translate(-50%, -50%);
 }
 
-/* .benefits .box {
-  height: 16rem;
-  padding: 0.625rem;
-  margin-right:1rem;
-  margin-left:1rem;
-  margin-bottom: 1.875rem;
-  transition: 0.3s ease-in-out;
-} */
-
 /* --------------------------- DATACONSUMER -------------------- */
-.dataconsumer{
-  text-align:center;
+.dataconsumer {
+  text-align: center;
 }
-.dataconsumer h1{
-  font-size:3rem;
-  font-weight:bold;
-  margin-top:2rem;
+.dataconsumer h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 2rem;
 }
 
-.company button{
-  color:white;
+.company button {
+  color: white;
 }
 
 /* ----------------------- JOINMUNA --------------- */
-.join-form{
-   margin-top: 14rem;
+.join-form {
+  margin-top: 14rem;
 }
 
-.joinmuna-img{
-  max-width:1200px;
-  height:80vh;
+.joinmuna-img {
+  max-width: 1200px;
+  height: 80vh;
 }
-.form-control{
-  border:none !important;
-}
-
-.form-group input{
-  width:28rem;
-  padding:2rem;
-  margin-bottom:0.8rem;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.form-control {
+  border: none !important;
 }
 
+.form-group input {
+  width: 28rem;
+  padding: 2rem;
+  margin-bottom: 0.8rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
+/* --------------------------- ABOUT ---------------- */
 
+.aboutpanel4 .circle img {
+  position: relative;
+  width: 30rem;
+  /* height: 32rem; */
+}
+.aboutpanel4 .aboutpanel4-name {
+  width: 21rem;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  background: white;
+  transform: translate(-50%, -50%);
+}
 
+.aboutpanel4 .aboutpanel4-job {
+  width: 15rem;
+  position: absolute;
+  background: white;
+  bottom: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutpanel4 h2 {
+  color: var(--primary-black);
+  font-size: 1rem;
+  letter-spacing: 0.35rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.aboutpanel4 h3 {
+  align-items: center;
+  color: var(--primary-black);
+  font-size: 1.03rem;
+  /* letter-spacing:0.35rem; */
+  padding: 0.5rem;
+  font-weight: bold;
+}
+.aboutpanel4-right {
+  margin-top: 12rem;
+}
+
+@media (max-width: 1600px) {
+  .aboutpanel4 .circle img {
+    width: 20rem;
+  }
+  .aboutpanel4 .aboutpanel4-name {
+    width: 18rem;
+    bottom: 18%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .aboutpanel4 .circle img {
+    width: 16rem;
+  }
+  .aboutpanel4 .aboutpanel4-name {
+    width: 15rem;
+    bottom: 18%;
+  }
+
+  .aboutpanel4 .aboutpanel4-job {
+    width: 12rem;
+  }
+
+  .aboutpanel4 h2 {
+    color: var(--primary-black);
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+
+  .aboutpanel4 h3 {
+    align-items: center;
+    color: var(--primary-black);
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    font-weight: bold;
+  }
+
+  .discount-btn-div button {
+    width: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutpanel4 .circle img {
+    width: 19rem;
+  }
+  .aboutpanel4 .aboutpanel4-name {
+    width: 18rem;
+  }
+  .aboutpanel4-right {
+    margin-top: 0;
+  }
+  .discount-btn-div button {
+    width: 300px;
+  }
+}

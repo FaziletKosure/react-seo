@@ -3,6 +3,7 @@ import useDocumentTitle from '../components/useDocumentTitle'
 import AboutPanel1 from '../components/AboutPanel1'
 import AboutPanel2 from '../components/AboutPanel2'
 import AboutPanel3 from '../components/AboutPanel3'
+import AboutPanel4 from '../components/AboutPanel4'
 
 
 const About = () => {
@@ -12,6 +13,7 @@ const About = () => {
          <AboutPanel1/>   
          <AboutPanel2/>   
          <AboutPanel3/>   
+         <AboutPanel4/>   
         </>
     )
 }
