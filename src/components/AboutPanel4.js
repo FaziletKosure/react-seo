@@ -8,7 +8,7 @@ const AboutPanel4 = () => {
   return (
     <div id="benefits" className="aboutpanel4">
       <div>
-        <div className="container  py-5">
+        <main className="container  py-5">
           <h1>Our Team</h1>
           <div className="row py-5">
             <div className="col-md-4 col-sm-12 py-5">
@@ -65,7 +65,7 @@ const AboutPanel4 = () => {
               </div>
             </div>
           </div>
-        </div>
+        </main>
       </div>
     </div>
   );

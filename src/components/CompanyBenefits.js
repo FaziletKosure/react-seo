@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  faDesktop,
-  faFileCode,
-  faShare,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import qualityicon from "../assets/qualityicon.svg";
 import trancparency from "../assets/transparency.svg";
 import sharing from "../assets/sharing.svg";

@@ -4,9 +4,8 @@ import noun_Quote2 from "../assets/noun_Quote_2.svg";
 
 const AboutPanel3 = () => {
   return (
-    <div className="dataconsumer py-5 container company">
+    <div className="dataconsumer py-5 container company aboutpanel3">
       <h3>Company culture</h3>
-
       <h1>
         <sup>
           <img src={noun_Quote1} alt="noun_Quote1" />

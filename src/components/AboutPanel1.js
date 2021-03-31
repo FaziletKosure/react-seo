@@ -10,7 +10,6 @@ const AboutPanel1 = () => {
             <div className="discounts-about-left-box">
               <h6>Our mission</h6>
               <h1>Feminist Data broker</h1>
-
               <div className="discount-btn-div">
                 <button>Sign up</button>
               </div>

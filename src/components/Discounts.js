@@ -1,5 +1,4 @@
 import React from "react";
-// import muna from "../assets/muna.webp";
 import muna from "../assets/mockupmobile.png";
 
 const Discounts = () => {

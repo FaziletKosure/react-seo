@@ -2,21 +2,8 @@
 :root {
   --primary-white: #ffffff;
   --primary-light-grey: #f8f8f8;
-  --primary-grey: #ccd1d9;
-  --primary-dark-grey: #666666;
-  --primary-red: #ef4035;
-  --primary-hover-red: #f33501;
-  --primary-hover-golden: #d0bf94;
-  --primary-orange: #f9ab00;
-  --primary-dark: rgb(52, 58, 64);
+  --primary-pink: #ff01ff;
   --primary-black: #000;
-  --primary-blue: #1d2d9c;
-
-  --primary-link-light-grey: #6c757d;
-  --primary-orange: #fec503;
-  --primary-footer-background-light-grey: #212529;
-  --primary-footer-background-grey: #1a1d20;
-  --primary-social-buttons-circle-dark-grey: #1a1d20;
 }
 
 body {
@@ -36,10 +23,6 @@ nav a.nav-link {
   cursor: pointer;
 }
 
-nav ul li {
-  /* text-transform: uppercase; */
-}
-
 .navbar-nav > li > a {
   letter-spacing: 0.3rem;
   margin-right: 2rem;
@@ -54,7 +37,7 @@ nav ul li {
   margin-left: 2rem;
   font-size: 1.5rem;
   font-weight: 900;
-  background-color: #000;
+  background-color: var(--primary-black);
   letter-spacing: 0.35rem;
 }
 .navbar-brand {
@@ -70,9 +53,7 @@ nav ul li {
   .navbar-brand {
     width: 6rem;
   }
-  nav {
-    margin: 0 !important;
-  }
+
   .navbar-nav > li > a {
     font-size: 1rem;
     font-weight: bold;
@@ -89,10 +70,10 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus {
-  color: #ff01ff !important;
+  color: var(--primary-pink) !important;
 }
 .navbar-nav > li > a:hover {
-  color: #ff01ff !important;
+  color: var(--primary-pink) !important;
 }
 /* ----------------------------- DISCOUNT  ----------------------------- */
 .discounts h1 {
@@ -134,7 +115,7 @@ nav ul li {
   cursor: pointer;
   outline: none;
   border: none;
-  background: #ff01ff;
+  background: var(--primary-pink);
   width: 500px;
   height: 50px;
   border-radius: 10px;
@@ -142,7 +123,7 @@ nav ul li {
   font-weight: 600;
   color: var(--text);
   background-size: 100% 100%;
-  box-shadow: 0 0 0 7px #ff01ff inset;
+  box-shadow: 0 0 0 7px var(--primary-pink) inset;
   margin-bottom: 3.5rem;
   margin-top: 3.5rem;
 }
@@ -195,7 +176,7 @@ footer {
 }
 
 footer i {
-  color: #ff01ff;
+  color: var(--primary-pink);
   font-size: 3rem;
   padding-right: 25px;
 }
@@ -288,7 +269,9 @@ footer i {
 }
 
 /* --------------------------- ABOUT ---------------- */
-
+.aboutpanel3 h1 {
+  font-size: 2.5rem;
+}
 .aboutpanel4 .circle img {
   position: relative;
   width: 30rem;
@@ -334,7 +317,24 @@ footer i {
 
 .charter-header {
   text-align: center;
+  position: relative;
 }
+
+.charter-header img {
+  width: 35rem;
+  height: 35rem;
+}
+.charter-header h2 {
+  color: var(--primary-pink);
+  font-size: 4rem;
+  font-weight: 600;
+}
+.charter-header-text {
+  position: absolute;
+  top: 33%;
+  left: 30%;
+}
+
 .charter-body-text span {
   color: white;
   background: black;
@@ -405,13 +405,29 @@ footer i {
     max-width: 300px;
     margin-left: 0;
   }
-  /* .discounts-left {
-    margin-top: 10rem;
-  } */
+
+  .aboutpanel4 .circle img {
+    width: 19rem;
+  }
+
+  .charter-header img {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .charter-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .charter-body-text p {
+    font-size: 1.3rem;
+  }
+
   /* ------BENEFITS---- */
   .benefits .box {
     text-align: center;
     max-width: 300px;
-    margin-left: 0;
+    margin-left: 19px;
   }
 }
