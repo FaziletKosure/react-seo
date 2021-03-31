@@ -1,18 +1,20 @@
-import React from 'react'
+import React from "react";
 import muna from "../assets/illust.svg";
 
 const AboutPanel1 = () => {
-    return (
-         <div className="discounts">
+  return (
+    <div className="discounts">
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-sm-12 py-5 discounts-left">
-          <h6>Our mission</h6>
-            <h1>Feminist Data broker</h1>
-           
-            <div className="discount-btn-div">
-  <button>Sign up</button>
-</div>
+            <div className="discounts-about-left-box">
+              <h6>Our mission</h6>
+              <h1>Feminist Data broker</h1>
+
+              <div className="discount-btn-div">
+                <button>Sign up</button>
+              </div>
+            </div>
           </div>
           <div className="col-md-6 col-sm-12">
             <img className="discount-img" src={muna} alt="muna.io" />
@@ -20,7 +22,7 @@ const AboutPanel1 = () => {
         </div>
       </div>
     </div>
-    )
-}
+  );
+};
 
-export default AboutPanel1
+export default AboutPanel1;
