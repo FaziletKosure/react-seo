@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
           <div className="col-md-3 box">
             <ul className="list-inline quick-links">
               <li className="list-inline-item">
-                <a href="#" target="_blank" rel="noopener">
+                <Link to="/policy" href="#" target="_blank" rel="noopener">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

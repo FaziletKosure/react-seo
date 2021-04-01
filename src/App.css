@@ -396,3 +396,86 @@ footer i {
     font-size: 1rem;
   }
 }
+
+/* --------POLICY-------------- */
+
+.policy .container {
+  max-width: 70rem !important;
+}
+.policy h3 {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.policy h4 {
+  color: var(--primary-pink);
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.policy-box {
+  text-align: center;
+  width: 375px;
+  border: 0.3rem solid var(--primary-black);
+  padding: 1.5rem;
+  position: relative;
+}
+.policy-icon {
+  width: 1.5rem;
+}
+
+.policy-ghost {
+  background-color: var(--primary-pink);
+  max-width: 4rem;
+  padding: 1rem;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  bottom: 86%;
+  left: 41%;
+}
+
+.oval-img {
+  padding: 0.5rem;
+  /* margin-top: 5rem; */
+}
+
+.policy-circle,
+.left-circle {
+  text-align: center;
+}
+.left-circle {
+  width: 350px;
+}
+.packman {
+  width: 5rem;
+}
+
+.policy button {
+  font-size: 1.5rem !important;
+}
+.custom-header {
+  padding-top: 3rem;
+  width: 50rem;
+  text-align: center !important;
+}
+.modal-dialog {
+  border: 0.3rem solid var(--primary-black);
+  position: relative;
+}
+.modal-content {
+  position: relative;
+}
+.modal-dialog .modal-ghost {
+  background-color: var(--primary-pink);
+  max-width: 4rem;
+  padding: 1rem;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 0%;
+  left: 47%;
+  z-index: 3;
+}

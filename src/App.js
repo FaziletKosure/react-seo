@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Consumer from "./secreens/Consumer";
 import Company from "./secreens/Company";
 import About from "./secreens/About";
+import Policy from "./secreens/Policy";
 
 function App() {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1025px)" });
@@ -32,6 +33,7 @@ function App() {
             <Route path="/" exact component={Consumer} />
             <Route path="/company" exact component={Company} />
             <Route path="/About" exact component={About} />
+            <Route path="/policy" exact component={Policy} />
           </Switch>
         </div>
         <Footer />
