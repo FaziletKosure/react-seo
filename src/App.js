@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
@@ -9,30 +11,31 @@ import Company from "./secreens/Company";
 import About from "./secreens/About";
 
 function App() {
-  if (window.screen.width >= "900px") {
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1025px)" });
+  if (isTabletOrMobile) {
     return (
       <Router>
-        <div id="container">
-          <Navbar />
-          <div id="main-content">
-            <Switch>
-              <Route path="/" exact component={Consumer} />
-              <Route path="/company" exact component={Company} />
-              <Route path="/About" exact component={About} />
-            </Switch>
-          </div>
-          <Footer />
-        </div>
+        <Navbar isTabletOrMobile={isTabletOrMobile} />
+        <Consumer />
+        <Company />
+        <About />
+        <Footer />
       </Router>
     );
   }
   return (
     <Router>
-      <Navbar />
-      <Consumer />
-      <Company />
-      <About />
-      <Footer />
+      <div id="container">
+        <Navbar isTabletOrMobile={isTabletOrMobile} />
+        <div id="main-content">
+          <Switch>
+            <Route path="/" exact component={Consumer} />
+            <Route path="/company" exact component={Company} />
+            <Route path="/About" exact component={About} />
+          </Switch>
+        </div>
+        <Footer />
+      </div>
     </Router>
   );
 }

@@ -7,11 +7,11 @@ import useDocumentTitle from "../components/useDocumentTitle";
 const Company = () => {
   useDocumentTitle("Company | Muna.io");
   return (
-    <>
+    <div id="company">
       <Customers />
       <CompanyBenefits />
       <CompanyChange />
-    </>
+    </div>
   );
 };
 

@@ -9,13 +9,13 @@ import AboutCharter from "../components/AboutCharter";
 const About = () => {
   useDocumentTitle("About | Muna.io");
   return (
-    <>
+    <div id="about">
       <AboutPanel1 />
       <AboutPanel2 />
       <AboutCharter />
       <AboutPanel3 />
       <AboutPanel4 />
-    </>
+    </div>
   );
 };
 

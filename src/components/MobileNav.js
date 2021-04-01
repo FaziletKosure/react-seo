@@ -1,22 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import { Link as RscrollLink } from "react-scroll";
+import { Link as RscrollLink } from "react-scroll";
 import logo from "../assets/munaiologo.svg";
-
-//  REACT FONTAWESOME IMPORT
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import MobileNav from "./MobileNav";
 
-const Navbar = ({ isTabletOrMobile }) => {
-  if (isTabletOrMobile) {
-    return <MobileNav />;
-  }
+const MobileNav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <Link className="navbar-brand" offset={-110} href="#">
+      <RscrollLink className="navbar-brand" offset={-110} href="#">
         <img className="logo" src={logo} alt="logo" srcset="" />
-      </Link>
+      </RscrollLink>
       <button
         className="navbar-toggler"
         type="button"
@@ -35,39 +28,39 @@ const Navbar = ({ isTabletOrMobile }) => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <Link to="/" className="nav-a" href="#">
+            <RscrollLink to="consumer" className="nav-a" href="#">
               Consumer <span className="sr-only">(current)</span>
-            </Link>
+            </RscrollLink>
           </li>
           <li className="nav-item">
-            <Link to="/company" className="nav-a" href="#">
+            <RscrollLink to="company" className="nav-a" href="#">
               Company
-            </Link>
+            </RscrollLink>
           </li>
           {/* <li className="nav-item">
-            <Link className="nav-a" href="#">
-              Policy
-            </Link>
-          </li>
+              <Link className="nav-a" href="#">
+                Policy
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-a" href="#">
+                Team
+              </Link>
+            </li> */}
           <li className="nav-item">
-            <Link className="nav-a" href="#">
-              Team
-            </Link>
-          </li> */}
-          <li className="nav-item">
-            <Link to="about" className="nav-a">
+            <RscrollLink to="about" className="nav-a">
               About
-            </Link>
+            </RscrollLink>
           </li>
           <li className="nav-item">
-            <Link className="nav-a">Log in</Link>
+            <RscrollLink className="nav-a">Log in</RscrollLink>
           </li>
           <li className="nav-item">
-            <Link to="join-muna" className="nav-a">
+            <RscrollLink to="join-muna" className="nav-a">
               <button type="button" class="btn btn-dark btn-lg">
                 Join Muna
               </button>
-            </Link>
+            </RscrollLink>
           </li>
         </ul>
       </div>
@@ -75,4 +68,4 @@ const Navbar = ({ isTabletOrMobile }) => {
   );
 };
 
-export default Navbar;
+export default MobileNav;
