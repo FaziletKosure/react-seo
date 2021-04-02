@@ -271,7 +271,7 @@ nav.container {
 
 .charter-header {
   text-align: center;
-  position: relative;
+  /* position: relative; */
 }
 
 .charter-header img {
@@ -283,11 +283,11 @@ nav.container {
   font-size: 4rem;
   font-weight: 600;
 }
-.charter-header-text {
+/* .charter-header-text {
   position: absolute;
   top: 33%;
   left: 30%;
-}
+} */
 
 .charter-body-text span {
   color: white;
@@ -339,7 +339,7 @@ nav.container {
     bottom: 18%;
   }
   .discount-img {
-    width: 32rem;
+    width: 90%;
   }
   .aboutpanel4 .aboutpanel4-job {
     width: 12rem;
@@ -375,7 +375,7 @@ nav.container {
 
 @media (max-width: 800px) {
   .aboutpanel4 .circle img {
-    /* width: 19rem; */
+    width: 20rem;
   }
   .aboutpanel4 .aboutpanel4-name {
     width: 18rem;
@@ -394,11 +394,6 @@ nav.container {
 
   .aboutpanel4 .circle img {
     /* width: 19rem; */
-  }
-
-  .charter-header img {
-    /* width: 22rem; */
-    height: 22rem;
   }
 
   .charter-header h2 {
@@ -420,7 +415,7 @@ nav.container {
 
 @media (max-width: 768px) {
   html {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .discount-btn-div button,

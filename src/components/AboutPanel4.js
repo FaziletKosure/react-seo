@@ -46,7 +46,7 @@ const AboutPanel4 = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4 col-sm-12 py-5">
+            <div className="col-md-4 col-sm-12">
               <div className="circle">
                 <img src={daria} alt="sanna" />
                 <div className="aboutpanel4-name">
@@ -57,7 +57,7 @@ const AboutPanel4 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-8 col-sm-12 py-5 aboutpanel4-right ">
+            <div className="col-md-8 col-sm-12  aboutpanel4-right ">
               <div className="discount-btn-div container">
                 <button>Join our team!</button>
               </div>

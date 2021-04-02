@@ -6,10 +6,10 @@ const AboutCharter = () => {
   return (
     <div className="container">
       <div className="charter-header">
-        <img src={sanna} alt="sanna" />
+        {/* <img src={sanna} alt="sanna" /> */}
         <div className="charter-header-text py-3">
-          <h2 className="first-h2">MUna . io</h2>
-          <h2 className="second-h2">Charter</h2>
+          <h2 className="first-h2">MUNA . IO</h2>
+          <h2 className="second-h2">CHARTER</h2>
         </div>
       </div>
       <div className="charter-body-text py-3">
