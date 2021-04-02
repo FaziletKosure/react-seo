@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import Oval from "../assets/Oval.svg";
 import ghost from "../assets/ghost.svg";
@@ -7,6 +7,9 @@ import packmanright from "../assets/packman-right.svg";
 import { PolicyModal } from "../components/PolicyModal";
 
 const Policy = () => {
+  const [answer, setAnswer] = useState("");
+  const [question, setQuestion] = useState("");
+  // const handleClick = useEffect(() => {}, [question, answer]);
   return (
     <div className="policy py-5">
       <div className="py-5">Privacy Policy</div>
@@ -26,15 +29,16 @@ const Policy = () => {
                   className="btn"
                   data-toggle="modal"
                   data-target="#policyModel"
+                  onClick={() => {
+                    setAnswer("We collect browsing history");
+                    setQuestion("Q. What data do you collect?");
+                  }}
                 >
                   Read More
                 </button>
               </div>
               {/* MODAL */}
-              <PolicyModal
-                question="Q. What data do you collect?"
-                answer="We collect browsing history"
-              />
+              <PolicyModal question={question} answer={answer} />
             </div>
             <div className="col-md-2 col-sm4">
               <div className="policy-circle py-5">
@@ -55,14 +59,15 @@ const Policy = () => {
                   className="btn"
                   data-toggle="modal"
                   data-target="#policyModel"
+                  onClick={() => {
+                    setAnswer("Your privacy comes first");
+                    setQuestion("Q. What’s your privacy principles?");
+                  }}
                 >
                   Read More
                 </button>
               </div>
-              <PolicyModal
-                question="Q. What’s your privacy principles?"
-                answer="Your privacy comes first"
-              />
+              <PolicyModal question={question} answer={answer} />
             </div>
             <div className="col-md-2 col-sm-4">
               <div className="policy-circle py-5">
@@ -114,14 +119,15 @@ const Policy = () => {
                   className="btn"
                   data-toggle="modal"
                   data-target="#policyModel"
+                  onClick={() => {
+                    setAnswer("We use it to improve our work");
+                    setQuestion("Q. How is that data being used?");
+                  }}
                 >
                   Read More
                 </button>
               </div>
-              <PolicyModal
-                question="Q. How is that data being used?"
-                answer="We use it to improve our work"
-              />
+              <PolicyModal question={question} answer={answer} />
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="policy-circle py-5">
@@ -145,14 +151,15 @@ const Policy = () => {
                   className="btn"
                   data-toggle="modal"
                   data-target="#policyModel"
+                  onClick={() => {
+                    setAnswer("We don’t share your data");
+                    setQuestion("Q. Do you share my data?");
+                  }}
                 >
                   Read More
                 </button>
               </div>
-              <PolicyModal
-                question="Q. Do you share my data?"
-                answer="We don’t share your data"
-              />
+              <PolicyModal question={question} answer={answer} />
             </div>
           </div>
           {/* -----------4444444444444444--------------- */}
@@ -192,14 +199,15 @@ const Policy = () => {
                   className="btn"
                   data-toggle="modal"
                   data-target="#policyModel"
+                  onClick={() => {
+                    setAnswer("We are here to help");
+                    setQuestion("Q. How can I make a complaint?");
+                  }}
                 >
                   Read More
                 </button>
               </div>
-              <PolicyModal
-                question="Q. How can I make a complaint?"
-                answer="We are here to help"
-              />
+              <PolicyModal question={question} answer={answer} />
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="policy-circle py-5">
@@ -223,14 +231,15 @@ const Policy = () => {
                   className="btn"
                   data-toggle="modal"
                   data-target="#policyModel"
+                  onClick={() => {
+                    setAnswer("Simple to exercise your rights");
+                    setQuestion("Q. What are my rights?");
+                  }}
                 >
                   Read More
                 </button>
               </div>
-              <PolicyModal
-                question="Q. What are my rights?"
-                answer="Simple to exercise your rights"
-              />
+              <PolicyModal question={question} answer={answer} />
             </div>
           </div>
           {/* -----------------------666666666666666666666-------------------- */}
@@ -273,14 +282,15 @@ const Policy = () => {
                   className="btn"
                   data-toggle="modal"
                   data-target="#policyModel"
+                  onClick={() => {
+                    setAnswer("We are here to help");
+                    setQuestion("Q. How can I make a complaint?");
+                  }}
                 >
                   Read More
                 </button>
               </div>
-              <PolicyModal
-                question="Q. How can I make a complaint?"
-                answer="We are here to help"
-              />
+              <PolicyModal question={question} answer={answer} />
             </div>
             <div className="col-md-8 col-sm-12">
               <div className="policy-packman">

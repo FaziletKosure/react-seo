@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-md-3 box">
             <ul className="list-inline quick-links">
               <li className="list-inline-item">
-                <Link to="/policy" href="#" target="_blank" rel="noopener">
+                <Link to="/policy" href="#" rel="noopener">
                   Privacy Policy
                 </Link>
               </li>

@@ -1,5 +1,6 @@
 import React from "react";
-import sanna from "../assets/sanna.jpg";
+// import sanna from "../assets/sanna.jpg";
+import sanna from "../assets/SmilingWoman.webp";
 
 const AboutCharter = () => {
   return (

@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
+
 import ghost from "../assets/ghost.svg";
 
 export const PolicyModal = ({ question, answer }) => {
+  useEffect(() => {}, [question, answer]);
   return (
     <div>
+      <Helmet>
+        <title>Privacy Policy | Muna | Belgium</title>
+        <meta
+          name="description"
+          content="Know your rights! Consumers get personalised deals and control over their data. "
+        />
+      </Helmet>
       {/* The Modal  */}
       <div className="modal" id="policyModel">
         <div className="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">

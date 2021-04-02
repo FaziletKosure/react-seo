@@ -32,14 +32,14 @@ nav a.nav-link {
   color: var(--primary-black) !important;
 }
 
-.navbar-nav > li > a > button {
+/* .navbar-nav > li > a > button {
   margin-right: 2rem;
   margin-left: 2rem;
   font-size: 1.5rem;
   font-weight: 900;
   background-color: var(--primary-black);
   letter-spacing: 0.35rem;
-}
+} */
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
@@ -56,13 +56,13 @@ nav a.nav-link {
 
   .navbar-nav > li > a {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
   }
-  .navbar-nav > li > a > button {
+  /* .navbar-nav > li > a > button {
     font-size: 1rem;
     font-weight: 400;
     margin-top: 1rem;
-  }
+  } */
   #navbarSupportedContent {
     margin-top: 0.01rem;
   }
@@ -139,8 +139,11 @@ footer {
 }
 
 footer i {
+  -webkit-text-stroke: 1px black;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
   color: var(--primary-pink);
-  font-size: 3rem;
+  font-size: 3.3rem;
   padding-right: 25px;
 }
 
@@ -162,7 +165,8 @@ footer i {
 }
 .benefits .container,
 .discounts .container,
-.aboutpanel4 .container {
+.aboutpanel4 .container,
+nav.container {
   max-width: 118rem !important;
 }
 .benefits .container {
@@ -243,6 +247,10 @@ footer i {
 }
 
 .aboutpanel4 h2 {
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
   color: var(--primary-pink);
   font-size: 1rem;
   letter-spacing: 0.35rem;
@@ -515,10 +523,13 @@ footer i {
 }
 
 .up-angle {
+  -webkit-text-stroke: 1px aqua;
+  text-shadow: 1px 1px 0 aqua, -1px -1px 0 aqua, 1px -1px 0 aqua,
+    -1px 1px 0 aqua, 1px 1px 0 aqua;
+  color: var(--primary-pink);
   position: -webkit-sticky;
   position: sticky;
   top: 350px;
-  color: aqua;
   font-weight: bold;
   padding: 10px;
   font-size: 50px;

@@ -89,7 +89,7 @@ const MobileNav = () => {
               About
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-a">Log in</Link>
           </li>
           <li className="nav-item">
@@ -98,7 +98,7 @@ const MobileNav = () => {
                 Join Muna
               </button>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

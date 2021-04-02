@@ -12,7 +12,7 @@ const Navbar = ({ isTabletOrMobile }) => {
     return <MobileNav />;
   }
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top container">
       <Link className="navbar-brand" offset={-110} href="#">
         <img className="logo" src={logo} alt="logo" srcSet="" />
       </Link>
@@ -64,7 +64,7 @@ const Navbar = ({ isTabletOrMobile }) => {
               About
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-a">Log in</Link>
           </li>
           <li className="nav-item">
@@ -73,7 +73,7 @@ const Navbar = ({ isTabletOrMobile }) => {
                 Join Muna
               </button>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
