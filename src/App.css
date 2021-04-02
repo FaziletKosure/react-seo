@@ -15,7 +15,7 @@ nav {
 }
 .logo {
   width: 5rem;
-  margin-left: 2rem;
+  margin: 1rem;
 }
 
 /* ********************  MENU LINKS  ******************** */
@@ -143,7 +143,7 @@ footer i {
   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   color: var(--primary-pink);
-  font-size: 3.3rem;
+  font-size: 3rem;
   padding-right: 25px;
 }
 
@@ -211,9 +211,9 @@ nav.container {
   margin-top: 2rem;
 }
 
-.company button {
+/* .company button {
   color: white;
-}
+} */
 
 /* --------------------------- ABOUT ---------------- */
 .aboutpanel3 h1 {

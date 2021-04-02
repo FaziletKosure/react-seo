@@ -17,10 +17,7 @@ const Customers = () => {
               </p>
 
               <div className="discount-btn-div company">
-                <Link to="join-muna">
-                  {" "}
-                  <button>Join Muna</button>
-                </Link>
+                <button>Join Muna</button>
               </div>
             </div>
           </div>
