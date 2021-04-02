@@ -6,17 +6,20 @@ const AboutPanel3 = () => {
   return (
     <div className="dataconsumer py-5 container company aboutpanel3">
       <h3>Company culture</h3>
-      <h1>
-        <sup>
-          <img src={noun_Quote1} alt="noun_Quote1" />
-        </sup>
-        JCompany culture We all come from different cultures with different
-        stories. We embrace our differences and believe that transparency
-        creates trust and success.
-        <sub>
-          <img src={noun_Quote2} alt="noun_Quote2" />
-        </sub>
-      </h1>
+      <div className="flex-culture">
+        <aside className="left-quote">
+          <img className="panel3-quote" src={noun_Quote1} alt="noun_Quote1" />
+        </aside>
+        <h1 className="flex-width">
+          Company culture We all come from different cultures with different
+          stories. We embrace our differences and believe that transparency
+          creates trust and success.
+        </h1>
+
+        <aside className="right-quote">
+          <img className="panel3-quote" src={noun_Quote2} alt="noun_Quote2" />
+        </aside>
+      </div>
     </div>
   );
 };

@@ -46,7 +46,7 @@ const Footer = () => {
               </li>
               <li className="list-inline-item">
                 <a target="_blank" href="https://www.instagram.com/muna.io/">
-                  <i class="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
               </li>
             </ul>

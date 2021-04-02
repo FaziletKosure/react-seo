@@ -1,15 +1,27 @@
-import React from "react";
-import { Link as RscrollLink } from "react-scroll";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+// import { Link } from "react-router-dom";
 import logo from "../assets/munaiologo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const MobileNav = () => {
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <RscrollLink className="navbar-brand" offset={-110} href="#">
-        <img className="logo" src={logo} alt="logo" srcset="" />
-      </RscrollLink>
+      <Link
+        className="navbar-brand"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={1000}
+        data-bs-toggle="collapse"
+        data-bs-target=".navbar-collapse.show"
+      >
+        <img className="logo" src={logo} alt="logo" srcSet="" />
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -28,14 +40,32 @@ const MobileNav = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <RscrollLink to="consumer" className="nav-a" href="#">
+            <Link
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1000}
+              to="consumer"
+              className="nav-link"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               Consumer <span className="sr-only">(current)</span>
-            </RscrollLink>
+            </Link>
           </li>
           <li className="nav-item">
-            <RscrollLink to="company" className="nav-a" href="#">
+            <Link
+              to="company"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1000}
+              className="nav-a"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               Company
-            </RscrollLink>
+            </Link>
           </li>
           {/* <li className="nav-item">
               <Link className="nav-a" href="#">
@@ -48,19 +78,26 @@ const MobileNav = () => {
               </Link>
             </li> */}
           <li className="nav-item">
-            <RscrollLink to="about" className="nav-a">
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1000}
+              className="nav-a"
+            >
               About
-            </RscrollLink>
+            </Link>
           </li>
           <li className="nav-item">
-            <RscrollLink className="nav-a">Log in</RscrollLink>
+            <Link className="nav-a">Log in</Link>
           </li>
           <li className="nav-item">
-            <RscrollLink to="join-muna" className="nav-a">
-              <button type="button" class="btn btn-dark btn-lg">
+            <Link to="join-muna" className="nav-a">
+              <button type="button" className="btn btn-dark btn-lg">
                 Join Muna
               </button>
-            </RscrollLink>
+            </Link>
           </li>
         </ul>
       </div>

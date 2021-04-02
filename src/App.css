@@ -105,7 +105,7 @@ nav a.nav-link {
 }
 .discount-btn-div button,
 .dataconsumer button {
-  display: block;
+  /* display: block; */
   cursor: pointer;
   outline: none;
   border: none;
@@ -228,6 +228,11 @@ footer i {
   transform: translate(-50%, -50%);
 }
 
+.custom-panel1-img {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
 .aboutpanel4 .aboutpanel4-job {
   width: 15rem;
   position: absolute;
@@ -286,6 +291,24 @@ footer i {
   font-size: 1.3rem;
 }
 
+.flex-culture {
+  position: relative;
+}
+.left-quote {
+  position: relative;
+  left: -5%;
+  top: 100%;
+  width: 10%;
+}
+.right-quote {
+  position: relative;
+  left: 85%;
+  top: 100%;
+  width: 10%;
+}
+.flex-width {
+  width: 90%;
+}
 @media (max-width: 1600px) {
   .aboutpanel4 .circle img {
     /* width: 35rem; */
@@ -312,6 +335,9 @@ footer i {
   }
   .aboutpanel4 .aboutpanel4-job {
     width: 12rem;
+  }
+  .panel3-quote {
+    width: 3rem;
   }
 
   /* .aboutpanel4 h2 {
@@ -394,6 +420,14 @@ footer i {
     height: 35px;
     width: 300px;
     font-size: 1rem;
+  }
+
+  .mobile-left {
+    margin-top: 0;
+  }
+
+  .panel3-quote {
+    width: 2rem;
   }
 }
 
@@ -478,4 +512,15 @@ footer i {
   top: 0%;
   left: 47%;
   z-index: 3;
+}
+
+.up-angle {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 350px;
+  color: aqua;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 50px;
+  z-index: 2;
 }

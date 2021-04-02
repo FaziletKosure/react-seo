@@ -18,6 +18,9 @@ function App() {
       <Router>
         <Navbar isTabletOrMobile={isTabletOrMobile} />
         <Consumer />
+        <a href="#">
+          <i className="fas fa-angle-double-up up-angle"></i>
+        </a>
         <Company />
         <About />
         <Footer />

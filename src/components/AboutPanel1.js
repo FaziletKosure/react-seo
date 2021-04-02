@@ -6,16 +6,16 @@ const AboutPanel1 = () => {
     <div className="discounts">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 col-sm-12 py-5 discounts-left">
+          <div className="col-md-6 col-sm-12 py-5 discounts-left mobile-left">
             <div className="discounts-about-left-box">
-              <h6>Our mission</h6>
+              <h4>Our mission</h4>
               <h1>Feminist Data broker</h1>
               <div className="discount-btn-div">
                 <button>Sign up</button>
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12 custom-panel1-img mobile-left">
             <img className="discount-img" src={muna} alt="muna.io" />
           </div>
         </div>
