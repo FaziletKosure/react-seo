@@ -49,7 +49,7 @@ const AboutPanel4 = () => {
             <div className="col-md-4 col-sm-12">
               <div className="circle">
                 <img src={daria} alt="sanna" />
-                <div className="aboutpanel4-name">
+                <div className="aboutpanel4-name last-name">
                   <h2>Daria Kuznetsova</h2>
                 </div>
                 <div className="aboutpanel4-job last-job">

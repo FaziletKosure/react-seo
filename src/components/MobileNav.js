@@ -13,10 +13,11 @@ const MobileNav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <Link
+        to="consumer"
         className="navbar-brand"
         spy={true}
         smooth={true}
-        offset={50}
+        offset={-50}
         duration={1000}
         data-bs-toggle="collapse"
         data-bs-target=".navbar-collapse.show"
@@ -45,7 +46,7 @@ const MobileNav = () => {
             <Link
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-150}
               duration={1000}
               to="consumer"
               className="nav-link"
@@ -61,7 +62,7 @@ const MobileNav = () => {
               to="company"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-100}
               duration={1000}
               className="nav-link"
               data-toggle="collapse"
@@ -76,7 +77,7 @@ const MobileNav = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-100}
               duration={1000}
               className="nav-link"
               data-toggle="collapse"
