@@ -47,22 +47,10 @@ nav a.nav-link {
 }
 
 @media (max-width: 768px) {
-  .logo {
-    /* width: 4rem; */
-  }
   .navbar-brand {
     width: 6rem;
   }
 
-  .navbar-nav > li > a {
-    /* font-size: 1rem;
-    font-weight: 600; */
-  }
-  /* .navbar-nav > li > a > button {
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: 1rem;
-  } */
   #navbarSupportedContent {
     margin-top: 0.01rem;
   }
@@ -135,7 +123,6 @@ ol li {
 
 footer {
   padding: 2rem 0;
-  /* margin-bottom: 0 !important; */
 }
 
 footer i {
@@ -210,10 +197,6 @@ nav.container {
   font-weight: bold;
   margin-top: 2rem;
 }
-
-/* .company button {
-  color: white;
-} */
 
 /* --------------------------- ABOUT ---------------- */
 .aboutpanel3 h1 {

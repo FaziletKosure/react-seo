@@ -1,6 +1,5 @@
 import React from "react";
 import muna from "../assets/mockupdesktop.png";
-import { Link } from "react-router-dom";
 
 const Customers = () => {
   return (

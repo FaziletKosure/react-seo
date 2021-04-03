@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import Oval from "../assets/Oval.svg";
 import ghost from "../assets/ghost.svg";
@@ -11,7 +11,6 @@ const Policy = () => {
   const [answer, setAnswer] = useState("");
   const [question, setQuestion] = useState("");
   const [text, setText] = useState();
-  // const handleClick = useEffect(() => {}, [question, answer]);
   return (
     <div className="policy py-5">
       <div className="py-5">

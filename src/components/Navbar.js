@@ -49,31 +49,12 @@ const Navbar = ({ isTabletOrMobile }) => {
               Company
             </Link>
           </li>
-          {/* <li className="nav-item">
-            <Link className="nav-a" href="#">
-              Policy
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-a" href="#">
-              Team
-            </Link>
-          </li> */}
+
           <li className="nav-item">
             <Link to="about" className="nav-a">
               About
             </Link>
           </li>
-          {/* <li className="nav-item">
-            <Link className="nav-a">Log in</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="join-muna" className="nav-a">
-              <button type="button" className="btn btn-dark btn-lg">
-                Join Muna
-              </button>
-            </Link>
-          </li> */}
         </ul>
       </div>
     </nav>

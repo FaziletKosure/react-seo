@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-scroll";
-// import { Link } from "react-router-dom";
 import logo from "../assets/munaiologo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const MobileNav = () => {
-  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  const toggleRef = React.useRef(null);
+  const keyboardEvent = () => {
+    toggleRef.current.click();
+  };
 
-  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <Link
@@ -29,6 +30,7 @@ const MobileNav = () => {
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
+        ref={toggleRef}
         aria-label="Toggle navigation"
       >
         <FontAwesomeIcon
@@ -49,6 +51,7 @@ const MobileNav = () => {
               className="nav-link"
               data-toggle="collapse"
               data-target=".navbar-collapse.show"
+              onClick={() => keyboardEvent()}
             >
               Consumer <span className="sr-only">(current)</span>
             </Link>
@@ -63,20 +66,11 @@ const MobileNav = () => {
               className="nav-link"
               data-toggle="collapse"
               data-target=".navbar-collapse.show"
+              onClick={() => keyboardEvent()}
             >
               Company
             </Link>
           </li>
-          {/* <li className="nav-item">
-              <Link className="nav-a" href="#">
-                Policy
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-a" href="#">
-                Team
-              </Link>
-            </li> */}
           <li className="nav-item">
             <Link
               to="about"
@@ -87,20 +81,11 @@ const MobileNav = () => {
               className="nav-link"
               data-toggle="collapse"
               data-target=".navbar-collapse.show"
+              onClick={() => keyboardEvent()}
             >
               About
             </Link>
           </li>
-          {/* <li className="nav-item">
-            <Link className="nav-a">Log in</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="join-muna" className="nav-a">
-              <button type="button" className="btn btn-dark btn-lg">
-                Join Muna
-              </button>
-            </Link>
-          </li> */}
         </ul>
       </div>
     </nav>

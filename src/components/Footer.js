@@ -29,7 +29,7 @@ const Footer = () => {
               <li className="list-inline-item">
                 <a
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                   href="https://www.facebook.com/Munamarketplace/"
                 >
                   <i className="fab fa-facebook-f"></i>
@@ -38,14 +38,18 @@ const Footer = () => {
               <li className="list-inline-item">
                 <a
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                   href="https://www.linkedin.com/company/munaapp/"
                 >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com/muna.io/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/muna.io/"
+                >
                   <i className="fab fa-instagram"></i>
                 </a>
               </li>
