@@ -41,7 +41,7 @@ const Navbar = ({ isTabletOrMobile }) => {
               data-toggle="collapse"
               data-target=".navbar-collapse.show"
             >
-              Consumer <span className="sr-only">(current)</span>
+              Consumer
             </Link>
           </li>
           <li className="nav-item">

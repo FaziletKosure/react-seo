@@ -11,8 +11,8 @@ const Customers = () => {
             <div className="discounts-about-left-box">
               <h1>Know your customers by their name</h1>
               <p>
-                Muna enables you to build a one-to-one trust relatioship with
-                your customers and prospects.While growing your business and
+                Muna enables you to build a one-to-one trust relationship with
+                your customers and prospects. While growing your business and
                 sharing your gain with them.
               </p>
 

@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 import ghost from "../assets/ghost.svg";
 
-export const PolicyModal = ({ question, answer }) => {
+export const PolicyModal = ({ question, answer, text }) => {
   useEffect(() => {}, [question, answer]);
   return (
     <div>
@@ -35,6 +35,7 @@ export const PolicyModal = ({ question, answer }) => {
 
             {/* Modal body  */}
             <div className="modal-body">
+              {text}
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
               <p>Some text to enable scrolling.. Lorem ipsum dolor sit</p>

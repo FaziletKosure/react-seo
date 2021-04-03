@@ -60,7 +60,7 @@ const MobileNav = () => {
               smooth={true}
               offset={50}
               duration={1000}
-              className="nav-a"
+              className="nav-link"
               data-toggle="collapse"
               data-target=".navbar-collapse.show"
             >
@@ -84,7 +84,9 @@ const MobileNav = () => {
               smooth={true}
               offset={50}
               duration={1000}
-              className="nav-a"
+              className="nav-link"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
             >
               About
             </Link>

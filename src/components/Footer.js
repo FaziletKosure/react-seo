@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="col-md-3 box">
             <h6 className="copyright quick-links">Contact: +32494655559</h6>
           </div>
-          <div className="col-md-3 box">
+          <div className="col-md-3 box  footer-icon-mobile">
             <ul className="list-inline ">
               <li className="list-inline-item">
                 <a

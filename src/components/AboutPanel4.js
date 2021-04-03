@@ -52,7 +52,7 @@ const AboutPanel4 = () => {
                 <div className="aboutpanel4-name">
                   <h2>Daria Kuznetsova</h2>
                 </div>
-                <div className="aboutpanel4-job">
+                <div className="aboutpanel4-job last-job">
                   <h3>Data Scientist</h3>
                 </div>
               </div>
