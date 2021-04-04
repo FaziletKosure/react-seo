@@ -53,7 +53,10 @@ function App() {
             <Route path="/" exact component={Consumer} />
             <Route path="/company" exact component={Company} />
             <Route path="/About" exact component={About} />
-            <Route path="/policy" exact component={Policy} />
+            <Route
+              path="/policy"
+              render={() => <Policy isTabletOrMobile={isTabletOrMobile} />}
+            />
           </Switch>
         </div>
         <Footer />
