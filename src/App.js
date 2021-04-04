@@ -14,7 +14,7 @@ import PolicyMobile from "./secreens/PolicyMobile";
 
 function App() {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1025px)" });
-  const isTablet = useMediaQuery({ query: "(min-width: 600px)" });
+  const isTablet = useMediaQuery({ query: "(min-width: 768px)" });
   if (isTabletOrMobile) {
     return (
       <Router>

@@ -382,8 +382,9 @@ nav.container {
 
 /* --------POLICY-------------- */
 
-.policy .container {
-  max-width: 70rem !important;
+.col-md-2.col-sm-4.padding-reset {
+  padding-right: 0 !important;
+  padding-left: 0;
 }
 
 .policy-header {
@@ -409,7 +410,7 @@ nav.container {
 
 .policy-box {
   text-align: center;
-  width: 375px;
+  width: 23.438rem;
   border: 0.3rem solid var(--primary-black);
   padding: 1.5rem;
   position: relative;
@@ -430,7 +431,7 @@ nav.container {
 }
 
 .oval-img {
-  padding: 0.5rem;
+  padding: 0.4rem;
 }
 
 .policy-circle,
@@ -471,10 +472,11 @@ nav.container {
   z-index: 3;
 }
 /* Mobile Policy Adjustments */
+
 @media (max-width: 800px) {
-  .policy .container {
+  /* .policy .container {
     max-width: 20rem !important;
-  }
+  } */
 
   .policy-header {
     width: 15rem;
@@ -519,11 +521,6 @@ nav.container {
     left: 41%;
   }
 
-  .oval-img {
-    padding: 0.5rem;
-    /* margin-top: 5rem; */
-  }
-
   .policy-circle,
   .left-circle {
     text-align: center;
@@ -560,6 +557,11 @@ nav.container {
     top: 0%;
     left: 47%;
     z-index: 3;
+  }
+}
+@media (max-width: 600px) {
+  .policy .container {
+    max-width: 20rem !important;
   }
 }
 

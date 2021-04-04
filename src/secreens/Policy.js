@@ -52,7 +52,7 @@ const Policy = () => {
                 <img src={Oval} alt="Oval" className="oval-img" />
               </div>
             </div>
-            <div className="col-md-4 col-sm-18">
+            <div className="col-md-4 col-sm-8">
               <div className="policy-box">
                 <div className="policy-ghost">
                   <img src={ghost} alt="ghost" className="policy-icon" />
@@ -75,7 +75,7 @@ const Policy = () => {
               </div>
               <PolicyModal question={question} answer={answer} text={text} />
             </div>
-            <div className="col-md-2 col-sm-4">
+            <div className="col-md-2 col-sm-4 padding-reset">
               <div className="policy-circle py-5">
                 <img src={Oval} alt="Oval" className="oval-img" />
                 <img src={Oval} alt="Oval" className="oval-img" />
