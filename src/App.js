@@ -25,7 +25,8 @@ function App() {
               <>
                 <Navbar isTabletOrMobile={isTabletOrMobile} />
                 <Consumer />
-                <a href="#">
+                <div></div>
+                <a href="#" rel="noreferrer" className="pill">
                   <i className="fas fa-angle-double-up up-angle"></i>
                 </a>
                 <Company />
