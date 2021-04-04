@@ -305,6 +305,7 @@ nav.container {
   }
   .discount-img-box {
     padding: 0 !important;
+    margin-top: 70px;
   }
   .discount-img {
     width: 100%;
@@ -370,6 +371,12 @@ nav.container {
 
   .panel3-quote {
     width: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .discount-img-box {
+    margin-top: 0;
   }
 }
 
@@ -565,7 +572,7 @@ nav.container {
   top: 70%;
   left: 90%;
   font-weight: bold;
-  height: 40px;
+
   padding: 10px;
   font-size: 2rem;
   z-index: 2;

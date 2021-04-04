@@ -15,7 +15,7 @@ const Customers = () => {
                 sharing your gain with them.
               </p>
 
-              <div className="discount-btn-div company">
+              <div className="discount-btn-div  company">
                 <button>Join Muna</button>
               </div>
             </div>
