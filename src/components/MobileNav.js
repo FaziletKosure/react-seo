@@ -62,7 +62,7 @@ const MobileNav = () => {
               to="company"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-80}
               duration={1000}
               className="nav-link"
               data-toggle="collapse"
@@ -77,7 +77,7 @@ const MobileNav = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-80}
               duration={1000}
               className="nav-link"
               data-toggle="collapse"

@@ -327,8 +327,11 @@ nav.container {
     width: 15rem;
     /* bottom: 18%; */
   }
+  .discount-img-box {
+    padding: 0 !important;
+  }
   .discount-img {
-    width: 90%;
+    width: 100%;
   }
   .aboutpanel4 .aboutpanel4-job {
     width: 12rem;
@@ -611,15 +614,18 @@ nav.container {
 }
 
 .up-angle {
-  -webkit-text-stroke: 1px aqua;
-  text-shadow: 1px 1px 0 aqua, -1px -1px 0 aqua, 1px -1px 0 aqua,
-    -1px 1px 0 aqua, 1px 1px 0 aqua;
+  -webkit-text-stroke: 0.3px aqua;
+  /* text-shadow: 1px 1px 0 aqua, -1px -1px 0 aqua, 1px -1px 0 aqua,
+    -1px 1px 0 aqua, 1px 1px 0 aqua; */
   color: var(--primary-pink);
   position: -webkit-sticky;
   position: sticky;
   top: 350px;
   font-weight: bold;
   padding: 10px;
-  font-size: 50px;
+  font-size: 2rem;
   z-index: 2;
+  border: #f8f8f8 solid 1px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
 }

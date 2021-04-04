@@ -20,7 +20,7 @@ const Customers = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12 discount-img-box">
             <img className="discount-img" src={muna} alt="muna" srcSet="" />
           </div>
         </div>
