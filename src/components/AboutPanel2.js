@@ -12,7 +12,7 @@ const AboutPanel2 = () => {
             <div className="col-md-4 col-sm-12 py-5">
               <div className="box">
                 <div className="circle">
-                  <img src={equalityicon} alt="equalityicon" />
+                  <img src={equalityicon} loading="lazy" alt="equalityicon" />
                 </div>
                 <h2>Equality</h2>
                 <p>
@@ -24,7 +24,7 @@ const AboutPanel2 = () => {
             <div className="col-md-4 col-sm-12 py-5">
               <div className="box">
                 <div className="circle">
-                  <img src={diversity} alt="diversity" />
+                  <img src={diversity} loading="lazy" alt="diversity" />
                 </div>
                 <h2>Diversity</h2>
                 <p>
@@ -36,7 +36,7 @@ const AboutPanel2 = () => {
             <div className="col-md-4 col-sm-12 py-5">
               <div className="box">
                 <div className="circle">
-                  <img src={trust} alt="trust" />
+                  <img src={trust} loading="lazy" alt="trust" />
                 </div>
                 <h2>Trust</h2>
                 <p>

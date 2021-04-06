@@ -26,7 +26,12 @@ const Policy = ({ isTabletOrMobile }) => {
               <div className="col-md-4 col-sm-4">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>{data[0].question}</h3>
                   <h4>{data[0].answer}</h4>
@@ -50,15 +55,35 @@ const Policy = ({ isTabletOrMobile }) => {
               </div>
               <div className="col-md-2 col-sm4">
                 <div className="policy-circle py-5">
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                 </div>
               </div>
               <div className="col-md-4 col-sm-8">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>{data[1].question}</h3>
                   <h4>{data[1].answer}</h4>
@@ -80,11 +105,22 @@ const Policy = ({ isTabletOrMobile }) => {
               </div>
               <div className="col-md-2 col-sm-4 padding-reset">
                 <div className="policy-circle py-5">
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                   <img
                     src={packmanleft}
                     alt="packmanleft"
+                    loading="lazy"
                     className="packman"
                   />
                 </div>
@@ -97,22 +133,52 @@ const Policy = ({ isTabletOrMobile }) => {
               <div className="col-md-6 col-sm-12">
                 <div className="left-circle">
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                 </div>
               </div>
@@ -123,7 +189,12 @@ const Policy = ({ isTabletOrMobile }) => {
               <div className="col-md-4 col-sm-12">
                 <div className="policy-box ">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>{data[2].question}</h3>
                   <h4>{data[2].answer}</h4>
@@ -145,18 +216,53 @@ const Policy = ({ isTabletOrMobile }) => {
               </div>
               <div className="col-md-4 col-sm-12">
                 <div className="policy-circle py-5">
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                 </div>
               </div>
               <div className="col-md-4 col-sm-12">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>{data[3].question}</h3>
                   <h4>{data[3].answer}</h4>
@@ -183,19 +289,44 @@ const Policy = ({ isTabletOrMobile }) => {
               <div className="col-md-4 col-sm-12">
                 <div className="left-circle">
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                 </div>
               </div>
@@ -205,7 +336,12 @@ const Policy = ({ isTabletOrMobile }) => {
               <div className="col-md-4 col-sm-12">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>{data[4].question}</h3>
                   <h4>{data[4].answer}</h4>
@@ -227,18 +363,53 @@ const Policy = ({ isTabletOrMobile }) => {
               </div>
               <div className="col-md-4 col-sm-12">
                 <div className="policy-circle py-5">
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                 </div>
               </div>
               <div className="col-md-4 col-sm-12">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>{data[5].question}</h3>
                   <h4>{data[5].answer}</h4>
@@ -264,22 +435,52 @@ const Policy = ({ isTabletOrMobile }) => {
               <div className="col-md-4 col-sm-12">
                 <div className="left-circle">
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                   <div className="left-circle-oval">
-                    <img src={Oval} alt="Oval" className="oval-img" />
+                    <img
+                      src={Oval}
+                      alt="Oval"
+                      loading="lazy"
+                      className="oval-img"
+                    />
                   </div>
                 </div>
               </div>
@@ -290,7 +491,12 @@ const Policy = ({ isTabletOrMobile }) => {
               <div className="col-md-4 col-sm-12">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>{data[6].question}</h3>
                   <h4>{data[6].answer}</h4>
@@ -312,22 +518,83 @@ const Policy = ({ isTabletOrMobile }) => {
               </div>
               <div className="col-md-8 col-sm-12">
                 <div className="policy-packman">
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                   <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                   <img
                     src={packmanright}
                     alt="packmanright"
+                    loading="lazy"
                     className="packman"
                   />
                 </div>

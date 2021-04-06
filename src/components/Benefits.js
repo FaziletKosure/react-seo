@@ -12,7 +12,7 @@ const Benefits = () => {
             <div className="col-md-4 col-sm-12 py-5">
               <div className="box">
                 <div className="circle">
-                  <img src={savemoney} alt="savemoney" />
+                  <img src={savemoney} loading="lazy" alt="savemoney" />
                 </div>
                 <h2>Save Money</h2>
                 <p>Exchange your data for discounts,gift cards or cash.</p>
@@ -21,7 +21,7 @@ const Benefits = () => {
             <div className="col-md-4 col-sm-12 py-5">
               <div className="box">
                 <div className="circle">
-                  <img src={controlicon} alt="controlicon" />
+                  <img src={controlicon} loading="lazy" alt="controlicon" />
                 </div>
                 <h2>Stay in control</h2>
                 <p>Decide who you share your data with and stop anytime.</p>
@@ -30,7 +30,7 @@ const Benefits = () => {
             <div className="col-md-4 col-sm-12 py-5">
               <div className="box">
                 <div className="circle">
-                  <img src={transparency} alt="transparency" />
+                  <img src={transparency} loading="lazy" alt="transparency" />
                 </div>
                 <h2>Transparency</h2>
                 <p>Know exactly what happens to your data</p>

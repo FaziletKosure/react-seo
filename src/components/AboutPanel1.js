@@ -16,7 +16,12 @@ const AboutPanel1 = () => {
             </div>
           </div>
           <div className="col-md-6 col-sm-12 custom-panel1-img mobile-left">
-            <img className="discount-img" src={muna} alt="muna.io" />
+            <img
+              className="discount-img"
+              loading="lazy"
+              src={muna}
+              alt="muna.io"
+            />
           </div>
         </div>
       </div>

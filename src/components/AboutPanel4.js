@@ -13,7 +13,7 @@ const AboutPanel4 = () => {
           <div className="row py-5">
             <div className="col-md-4 col-sm-12 py-5">
               <div className="circle">
-                <img src={sanna} alt="sanna" />
+                <img src={sanna} loading="lazy" alt="sanna" />
                 <div className="aboutpanel4-name">
                   <h2>Sanna Toropainen</h2>
                 </div>
@@ -24,7 +24,7 @@ const AboutPanel4 = () => {
             </div>
             <div className="col-md-4 col-sm-12 py-5">
               <div className="circle">
-                <img src={denny} alt="denny" />
+                <img src={denny} loading="lazy" alt="denny" />
                 <div className="aboutpanel4-name">
                   <h2>Denny Wong</h2>
                 </div>
@@ -35,7 +35,7 @@ const AboutPanel4 = () => {
             </div>
             <div className="col-md-4 col-sm-12 py-5">
               <div className="circle">
-                <img src={antoine} alt="antoinet" />
+                <img src={antoine} loading="lazy" alt="antoinet" />
                 <div className="aboutpanel4-name">
                   <h2>Antoine Smolders</h2>
                 </div>
@@ -48,7 +48,7 @@ const AboutPanel4 = () => {
           <div className="row">
             <div className="col-md-4 col-sm-12">
               <div className="circle">
-                <img src={daria} alt="sanna" />
+                <img src={daria} loading="lazy" alt="sanna" />
                 <div className="aboutpanel4-name last-name">
                   <h2>Daria Kuznetsova</h2>
                 </div>

@@ -19,7 +19,12 @@ export const PolicyModal = ({ question, answer, text }) => {
         <div className="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
           <div className="modal-content">
             <div className=" modal-ghost">
-              <img src={ghost} alt="ghost" className="policy-icon" />
+              <img
+                src={ghost}
+                alt="ghost"
+                loading="lazy"
+                className="policy-icon"
+              />
             </div>
             {/* Modal Header  */}
             <div className="modal-header">

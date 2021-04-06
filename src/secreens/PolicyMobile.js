@@ -26,16 +26,32 @@ const Policy = () => {
                   <img
                     src={packmanright}
                     alt="packmanright"
+                    loading="lazy"
                     className="packman"
                   />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                   {/* <img
                     src={packmanleft}
                     alt="packmanleft"
                     className="packman"
                   /> */}
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                   {/* <img src={Oval} alt="Oval" className="oval-img" />
                   <img src={Oval} alt="Oval" className="oval-img" />
                   <img src={Oval} alt="Oval" className="oval-img" />
@@ -50,7 +66,12 @@ const Policy = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>Q. What data do you collect?</h3>
                   <h4>We collect browsing history</h4>
@@ -73,17 +94,37 @@ const Policy = () => {
               </div>
               <div className="col-md-2 col-sm4">
                 <div className="policy-circle py-5">
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
 
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
 
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                 </div>
               </div>
               <div className="col-md-4 col-sm-18">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>Q. What’s your privacy principles?</h3>
                   <h4>Your privacy comes first</h4>
@@ -104,11 +145,26 @@ const Policy = () => {
               </div>
               <div className="col-md-2 col-sm-4">
                 <div className="policy-circle py-5">
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
 
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
 
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                   {/* <img src={Oval} alt="Oval" className="oval-img" />
                 <img src={Oval} alt="Oval" className="oval-img" />
                 <img src={packmanleft} alt="packmanleft" className="packman" /> */}
@@ -123,7 +179,12 @@ const Policy = () => {
               <div className="col-md-4 col-sm-12">
                 <div className="policy-box ">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>Q. How is that data being used?</h3>
                   <h4>We use it to improve our work</h4>
@@ -144,15 +205,35 @@ const Policy = () => {
               </div>
               <div className="col-md-4 col-sm-12">
                 <div className="policy-circle py-5">
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                 </div>
               </div>
               <div className="col-md-4 col-sm-12">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>Q. Do you share my data?</h3>
                   <h4>We don’t share your data</h4>
@@ -176,9 +257,24 @@ const Policy = () => {
             <div className="row ">
               <div className="col-md-4 col-sm-12">
                 <div className="policy-circle ">
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                 </div>
               </div>
             </div>
@@ -187,7 +283,12 @@ const Policy = () => {
               <div className="col-md-4 col-sm-12">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>Q. How can I make a complaint?</h3>
                   <h4>We are here to help</h4>
@@ -208,15 +309,35 @@ const Policy = () => {
               </div>
               <div className="col-md-4 col-sm-12">
                 <div className="policy-circle py-5">
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                 </div>
               </div>
               <div className="col-md-4 col-sm-12">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>Q. What are my rights?</h3>
                   <h4>Simple to exercise your rights</h4>
@@ -251,7 +372,12 @@ const Policy = () => {
               <div className="col-md-4 col-sm-12">
                 <div className="policy-box">
                   <div className="policy-ghost">
-                    <img src={ghost} alt="ghost" className="policy-icon" />
+                    <img
+                      src={ghost}
+                      alt="ghost"
+                      loading="lazy"
+                      className="policy-icon"
+                    />
                   </div>
                   <h3>Q. How can I make a complaint?</h3>
                   <h4>We are here to help</h4>
@@ -283,12 +409,28 @@ const Policy = () => {
                   <img src={Oval} alt="Oval" className="oval-img" />
                   <img src={Oval} alt="Oval" className="oval-img" />
                   <img src={Oval} alt="Oval" className="oval-img" /> */}
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
+                  <img
+                    src={Oval}
+                    alt="Oval"
+                    loading="lazy"
+                    className="oval-img"
+                  />
                   <img
                     src={packmanright}
                     alt="packmanright"
+                    loading="lazy"
                     className="packman"
                   />
                 </div>

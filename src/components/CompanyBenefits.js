@@ -12,7 +12,7 @@ const CompanyBenefits = () => {
             <div className="col-md-4 col-sm-12 py-5">
               <div className="box">
                 <div className="circle">
-                  <img src={qualityicon} alt="qualityicon" />
+                  <img src={qualityicon} loading="lazy" alt="qualityicon" />
                 </div>
                 <h2>Quality</h2>
                 <p>
@@ -25,7 +25,7 @@ const CompanyBenefits = () => {
             <div className="col-md-4 col-sm-12 py-5">
               <div className="box">
                 <div className="circle">
-                  <img src={trancparency} alt="trancparency" />
+                  <img src={trancparency} loading="lazy" alt="trancparency" />
                 </div>
                 <h2>Transparency</h2>
                 <p>
@@ -38,7 +38,7 @@ const CompanyBenefits = () => {
             <div className="col-md-4 col-sm-12 py-5">
               <div className="box">
                 <div className="circle">
-                  <img src={sharing} alt="sharing" />
+                  <img src={sharing} loading="lazy" alt="sharing" />
                 </div>
                 <h2>Sharing</h2>
                 <p>

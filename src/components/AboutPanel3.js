@@ -8,7 +8,12 @@ const AboutPanel3 = () => {
       <h3>Company culture</h3>
       <div className="flex-culture">
         <aside className="left-quote">
-          <img className="panel3-quote" src={noun_Quote1} alt="noun_Quote1" />
+          <img
+            className="panel3-quote"
+            loading="lazy"
+            src={noun_Quote1}
+            alt="noun_Quote1"
+          />
         </aside>
         <h1 className="flex-width">
           Company culture We all come from different cultures with different
@@ -17,7 +22,12 @@ const AboutPanel3 = () => {
         </h1>
 
         <aside className="right-quote">
-          <img className="panel3-quote" src={noun_Quote2} alt="noun_Quote2" />
+          <img
+            className="panel3-quote"
+            loading="lazy"
+            src={noun_Quote2}
+            alt="noun_Quote2"
+          />
         </aside>
       </div>
     </div>

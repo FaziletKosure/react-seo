@@ -24,7 +24,12 @@ const Discounts = () => {
             </div>
           </div>
           <div className="col-md-6 col-sm-12 discount-img-box">
-            <img className="discount-img" src={muna} alt="muna.io" />
+            <img
+              className="discount-img"
+              loading="lazy"
+              src={muna}
+              alt="muna.io"
+            />
           </div>
         </div>
       </div>

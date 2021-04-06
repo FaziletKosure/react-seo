@@ -23,7 +23,7 @@ const MobileNav = () => {
         data-bs-toggle="collapse"
         data-bs-target=".navbar-collapse.show"
       >
-        <img className="logo" src={logo} alt="logo" srcSet="" />
+        <img className="logo" loading="lazy" src={logo} alt="logo" srcSet="" />
       </Link>
       <button
         className="navbar-toggler"
