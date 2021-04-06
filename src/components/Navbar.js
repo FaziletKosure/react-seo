@@ -13,7 +13,7 @@ const Navbar = ({ isTabletOrMobile }) => {
   }
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top container">
-      <Link className="navbar-brand" offset={-110} href="#">
+      <Link className="navbar-brand" offset={-110} to="/">
         <img className="logo" loading="lazy" src={logo} alt="logo" srcSet="" />
       </Link>
       <button

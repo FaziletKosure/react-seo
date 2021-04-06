@@ -19,7 +19,7 @@ const Discounts = () => {
                 <li>Share data and collect your rewards</li>
               </ol>
               <div className="discount-btn-div">
-                <button>Sign up</button>
+                <button>Download</button>
               </div>
             </div>
           </div>

@@ -32,7 +32,7 @@ const About = () => {
       </Helmet>
       <AboutPanel1 />
       <AboutPanel2 />
-      <AboutCharter />
+      {/* <AboutCharter /> */}
       <AboutPanel3 />
       <AboutPanel4 />
     </div>

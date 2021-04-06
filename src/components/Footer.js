@@ -9,7 +9,12 @@ const Footer = () => {
           <div className="col-md-3 box">
             <ul className="list-inline quick-links">
               <li className="list-inline-item">
-                <Link to="policy" offset={150} rel="noopener">
+                <Link
+                  className="policy-footer"
+                  to="policy"
+                  offset={150}
+                  rel="noopener"
+                >
                   Privacy Policy
                 </Link>
               </li>
@@ -22,12 +27,13 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-md-3 box">
-            <h6 className="copyright quick-links">Contact: +32494655559</h6>
+            <p className="copyright quick-links">Contact: +32494655559</p>
           </div>
           <div className="col-md-3 box  footer-icon-mobile">
             <ul className="list-inline ">
               <li className="list-inline-item">
                 <a
+                  aria-label="facebook"
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.facebook.com/Munamarketplace/"
@@ -37,6 +43,7 @@ const Footer = () => {
               </li>
               <li className="list-inline-item">
                 <a
+                  aria-label="linkedin"
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.linkedin.com/company/munaapp/"
@@ -46,6 +53,7 @@ const Footer = () => {
               </li>
               <li className="list-inline-item">
                 <a
+                  aria-label="instagram"
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.instagram.com/muna.io/"
