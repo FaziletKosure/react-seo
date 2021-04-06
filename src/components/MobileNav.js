@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import logo from "../assets/munaiologo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const MobileNav = () => {
+  const [closer, setCloser] = useState("false");
   const toggleRef = React.useRef(null);
   const keyboardEvent = () => {
-    toggleRef.current.click();
+    toggleRef.current.click(setCloser(!closer));
   };
 
   return (
@@ -32,12 +33,20 @@ const MobileNav = () => {
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         ref={toggleRef}
+        onClick={() => keyboardEvent()}
         aria-label="Toggle navigation"
       >
-        <FontAwesomeIcon
-          icon={faBars}
-          style={{ color: "#000", fontSize: "24px" }}
-        />
+        {closer ? (
+          <FontAwesomeIcon
+            icon={faBars}
+            style={{ color: "#000", fontSize: "24px" }}
+          />
+        ) : (
+          <i
+            class="fas fa-times"
+            style={{ color: "#000", fontSize: "26px" }}
+          ></i>
+        )}
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
