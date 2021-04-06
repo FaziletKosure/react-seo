@@ -18,7 +18,7 @@ const Discounts = () => {
                 <li>Accept data exchange offers</li>
                 <li>Share data and collect your rewards</li>
               </ol>
-              <div className="discount-btn-div">
+              <div className="discount-btn-div container">
                 <button>Download</button>
               </div>
             </div>
