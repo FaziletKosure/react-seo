@@ -164,6 +164,10 @@ nav.container {
 .benefits .container {
   background: var(--primary-light-grey);
 }
+
+.benefits img {
+  height: 7rem;
+}
 .benefits h2 {
   color: var(--primary-black);
   font-size: 2.1rem;

@@ -96,6 +96,21 @@ const MobileNav = () => {
               About
             </Link>
           </li>
+          <li className="nav-item active">
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={1000}
+              to="log-in"
+              className="nav-link"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+              onClick={() => keyboardEvent()}
+            >
+              Log in
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

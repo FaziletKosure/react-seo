@@ -55,6 +55,17 @@ const Navbar = ({ isTabletOrMobile }) => {
               About
             </Link>
           </li>
+          <li className="nav-item active">
+            <Link
+              to="/log-in"
+              className="nav-a"
+              href="#"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              Log in
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
