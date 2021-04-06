@@ -8,7 +8,7 @@ const Benefits = () => {
     <div id="benefits" className="benefits">
       <div>
         <div className="container  py-5">
-          <div className="row py-5">
+          <div className="row  container py-5">
             <div className="col-md-4 col-sm-12 py-5">
               <div className="box">
                 <div className="circle">
