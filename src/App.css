@@ -247,33 +247,25 @@ nav.container {
   color: white;
   text-shadow: 0.5px 0 #000, 0.5px 0 #000, 0.5px 0.5px 0 #000;
   color: var(--primary-pink);
-  font-size: 1rem;
+  font-size: 1.4rem;
   letter-spacing: 0.35rem;
-  padding: 0.6rem;
+  padding-top: 0.9rem;
   font-weight: bold;
 }
 
 .aboutpanel4 h3 {
   align-items: center;
   color: var(--primary-black);
-  font-size: 1.03rem;
-  padding: 0.35rem;
+  font-size: 1.4rem;
+  padding: 0.3rem;
   font-weight: bold;
 }
 
-.aboutpanel4 div.last-job {
-  bottom: -5%;
-}
-.aboutpanel4 div.last-name {
-  bottom: 7%;
-}
 .aboutpanel4-right {
   margin-top: 12rem;
 }
 
 .aboutpanel4-smedia i {
-  /* -webkit-text-stroke: 1px black;
-  text-shadow: 0.5px 0 #000, 0.5px 0 #000, 0.5px 0.5px 0 #000; */
   color: var(--primary-grey);
   font-size: 2rem;
   padding-right: 1rem;
@@ -317,20 +309,12 @@ nav.container {
 .flex-width {
   width: 90%;
 }
-@media (max-width: 1600px) {
-  .aboutpanel4 .aboutpanel4-name {
-    /* width: 18rem; */
-  }
-}
 
 @media (max-width: 1200px) {
   html {
     font-size: 10px;
   }
 
-  .aboutpanel4 .aboutpanel4-name {
-    /* width: 15rem; */
-  }
   .discount-img-box {
     padding: 0 !important;
     margin-top: 70px;
@@ -338,9 +322,7 @@ nav.container {
   .discount-img {
     width: 100%;
   }
-  .aboutpanel4 .aboutpanel4-job {
-    /* width: 12rem; */
-  }
+
   .panel3-quote {
     width: 3rem;
   }
@@ -358,9 +340,7 @@ nav.container {
   .footer-icon-mobile {
     margin-top: 1rem;
   }
-  .aboutpanel4 .aboutpanel4-name {
-    /* width: 18rem; */
-  }
+
   .aboutpanel4-right {
     margin-top: 1rem;
   }
