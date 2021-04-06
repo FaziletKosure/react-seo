@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import Oval from "../assets/Oval.svg";
 import ghost from "../assets/ghost.svg";
@@ -12,9 +12,13 @@ const Policy = ({ isTabletOrMobile }) => {
   const [answer, setAnswer] = useState("");
   const [question, setQuestion] = useState("");
   const [text, setText] = useState();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
-      isTabletOrMobile && <Navbar />
+      {isTabletOrMobile && <Navbar />}
       <div className="policy py-5">
         <div className="py-5">
           <div className="container">

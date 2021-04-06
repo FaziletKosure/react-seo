@@ -1,15 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import Oval from "../assets/Oval.svg";
 import ghost from "../assets/ghost.svg";
-// import packmanleft from "../assets/packman-left.svg";
 import packmanright from "../assets/packman-right.svg";
 import { PolicyModal } from "../components/PolicyModal";
 import Navbar from "../components/Navbar";
+// import MobileNav from "../components/MobileNav";
 
 const Policy = () => {
   const [answer, setAnswer] = useState("");
   const [question, setQuestion] = useState("");
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />
@@ -41,24 +44,13 @@ const Policy = () => {
                     loading="lazy"
                     className="oval-img"
                   />
-                  {/* <img
-                    src={packmanleft}
-                    alt="packmanleft"
-                    className="packman"
-                  /> */}
+
                   <img
                     src={Oval}
                     alt="Oval"
                     loading="lazy"
                     className="oval-img"
                   />
-                  {/* <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" /> */}
                 </div>
               </div>
             </div>
@@ -165,9 +157,6 @@ const Policy = () => {
                     loading="lazy"
                     className="oval-img"
                   />
-                  {/* <img src={Oval} alt="Oval" className="oval-img" />
-                <img src={Oval} alt="Oval" className="oval-img" />
-                <img src={packmanleft} alt="packmanleft" className="packman" /> */}
                 </div>
               </div>
             </div>
@@ -398,17 +387,6 @@ const Policy = () => {
               </div>
               <div className="col-md-8 col-sm-12">
                 <div className="policy-packman py-2">
-                  {/* <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" />
-                  <img src={Oval} alt="Oval" className="oval-img" /> */}
                   <img
                     src={Oval}
                     alt="Oval"
