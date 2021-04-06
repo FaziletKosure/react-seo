@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Discounts from "../components/Discounts";
 import Benefits from "../components/Benefits";
 import DataConsumer from "../components/DataConsumer";
 import { Helmet } from "react-helmet";
 
 const Consumer = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div id="consumer">
       <Helmet>

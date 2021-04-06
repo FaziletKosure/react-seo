@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import AboutPanel1 from "../components/AboutPanel1";
@@ -8,6 +8,9 @@ import AboutPanel4 from "../components/AboutPanel4";
 import AboutCharter from "../components/AboutCharter";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div id="about">
       <Helmet>

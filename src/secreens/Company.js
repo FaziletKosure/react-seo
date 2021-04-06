@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import Customers from "../components/Customers";
@@ -6,6 +6,9 @@ import CompanyBenefits from "../components/CompanyBenefits";
 import CompanyChange from "../components/CompanyChange";
 
 const Company = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div id="company">
       <Helmet>
