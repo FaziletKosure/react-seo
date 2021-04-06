@@ -6,7 +6,7 @@ const Discounts = () => {
     <div className="discounts">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 col-sm-12  discounts-left">
+          <div className="col-md-5 col-sm-12  discounts-left">
             <div className="discounts-about-left-box">
               <h1>Get discounts with your data</h1>
               <p>
@@ -23,7 +23,7 @@ const Discounts = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-sm-12 discount-img-box">
+          <div className="col-md-7 col-sm-12 discount-img-box">
             <img
               className="discount-img"
               loading="lazy"

@@ -7,6 +7,9 @@
   --primary-bright-green: #66ff00;
   --primary-grey: #808080;
 }
+html {
+  font-size: 12px;
+}
 
 body {
   font-family: "Poppins", sans-serif !important;
@@ -86,8 +89,7 @@ nav a.nav-link {
   margin-left: 8rem;
 }
 .discount-img {
-  /* width: 60rem;
-  height: 50rem; */
+  max-width: 67.5rem;
 }
 .discount-btn-div {
   width: 30rem;
@@ -307,7 +309,7 @@ nav.container {
 
 @media (max-width: 1200px) {
   html {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .aboutpanel4 .aboutpanel4-name {
@@ -366,7 +368,7 @@ nav.container {
 
 @media (max-width: 768px) {
   html {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .discount-btn-div button,
