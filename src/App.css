@@ -95,7 +95,6 @@ nav a.nav-link {
   width: 100%;
   height: auto;
   object-fit: cover;
-  /* overflow: hidden; */
 }
 .discount-btn-div {
   width: 30rem;
@@ -218,16 +217,15 @@ nav.container {
   font-size: 2rem;
 }
 .aboutpanel4 .circle img {
-  position: relative;
-  /* width: 30rem; */
+  border-radius: 25%;
 }
 .aboutpanel4 .aboutpanel4-name {
-  width: 20rem;
-  position: absolute;
-  bottom: 16%;
-  left: 50%;
-  background: white;
-  transform: translate(-50%, -50%);
+  /* width: 20rem; */
+  /* position: absolute; */
+  /* bottom: 16%;
+  left: 50%; */
+  /* background: white;
+  transform: translate(-50%, -50%); */
 }
 
 .custom-panel1-img {
@@ -236,12 +234,12 @@ nav.container {
 }
 
 .aboutpanel4 .aboutpanel4-job {
-  width: 15rem;
-  position: absolute;
-  background: white;
-  bottom: 7%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* width: 15rem; */
+  /* position: absolute; */
+  /* background: white; */
+  /* bottom: 7%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
 }
 
 .aboutpanel4 h2 {
@@ -271,6 +269,14 @@ nav.container {
 }
 .aboutpanel4-right {
   margin-top: 12rem;
+}
+
+.aboutpanel4-smedia i {
+  /* -webkit-text-stroke: 1px black;
+  text-shadow: 0.5px 0 #000, 0.5px 0 #000, 0.5px 0.5px 0 #000; */
+  color: var(--primary-grey);
+  font-size: 2rem;
+  padding-right: 1rem;
 }
 
 .charter-header {
@@ -313,7 +319,7 @@ nav.container {
 }
 @media (max-width: 1600px) {
   .aboutpanel4 .aboutpanel4-name {
-    width: 18rem;
+    /* width: 18rem; */
   }
 }
 
@@ -323,7 +329,7 @@ nav.container {
   }
 
   .aboutpanel4 .aboutpanel4-name {
-    width: 15rem;
+    /* width: 15rem; */
   }
   .discount-img-box {
     padding: 0 !important;
@@ -333,7 +339,7 @@ nav.container {
     width: 100%;
   }
   .aboutpanel4 .aboutpanel4-job {
-    width: 12rem;
+    /* width: 12rem; */
   }
   .panel3-quote {
     width: 3rem;
@@ -353,7 +359,7 @@ nav.container {
     margin-top: 1rem;
   }
   .aboutpanel4 .aboutpanel4-name {
-    width: 18rem;
+    /* width: 18rem; */
   }
   .aboutpanel4-right {
     margin-top: 1rem;

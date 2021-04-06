@@ -20,6 +20,50 @@ const AboutPanel4 = () => {
                 <div className="aboutpanel4-job">
                   <h3>Co-founder, CEO</h3>
                 </div>
+                <div className="aboutpanel4-smedia">
+                  <ul className="list-inline ">
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="twitter"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="linkedin"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="github"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-github"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="envelope"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="far fa-envelope"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div className="col-md-4 col-sm-12 py-5">
@@ -31,6 +75,50 @@ const AboutPanel4 = () => {
                 <div className="aboutpanel4-job">
                   <h3>Co-founder, CEO</h3>
                 </div>
+                <div className="aboutpanel4-smedia">
+                  <ul className="list-inline ">
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="twitter"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="linkedin"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="github"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-github"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="envelope"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="far fa-envelope"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div className="col-md-4 col-sm-12 py-5">
@@ -41,6 +129,50 @@ const AboutPanel4 = () => {
                 </div>
                 <div className="aboutpanel4-job">
                   <h3>Technical Advisor</h3>
+                </div>
+                <div className="aboutpanel4-smedia">
+                  <ul className="list-inline ">
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="twitter"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="linkedin"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="github"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-github"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="envelope"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="far fa-envelope"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -54,6 +186,51 @@ const AboutPanel4 = () => {
                 </div>
                 <div className="aboutpanel4-job last-job">
                   <h3>Data Scientist</h3>
+                </div>
+                <div className="aboutpanel4-smedia">
+                  <ul className="list-inline ">
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="twitter"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="linkedin"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="github"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="fab fa-github"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        aria-label="envelope"
+                        target="_blank"
+                        rel="noreferrer"
+                        href="#"
+                      >
+                        <i className="far fa-envelope"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
