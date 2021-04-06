@@ -89,7 +89,10 @@ nav a.nav-link {
   margin-left: 8rem;
 }
 .discount-img {
-  max-width: 67.5rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
 }
 .discount-btn-div {
   width: 30rem;
