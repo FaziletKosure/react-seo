@@ -16,9 +16,9 @@ const CompanyBenefits = () => {
                 </div>
                 <h2>Quality</h2>
                 <p>
-                  Companies improve their conversion rate by offering
-                  personasation that is powered with quality data sourced
-                  directly from the consumers
+                  Reach customers and improve your conversion rate with
+                  personalization driven by quality data sourced directly from
+                  the consumers.
                 </p>
               </div>
             </div>
@@ -30,7 +30,7 @@ const CompanyBenefits = () => {
                 <h2>Transparency</h2>
                 <p>
                   Consumers know how and what kind of data is shared, thus
-                  nothing happens without their consent.GDPR compliance
+                  nothing happens without their consent. GDPR compliance
                   guaranteed.
                 </p>
               </div>
@@ -42,8 +42,8 @@ const CompanyBenefits = () => {
                 </div>
                 <h2>Sharing</h2>
                 <p>
-                  Companies share the gains from the 300$ billion global data
-                  economy with their customers.
+                  Reduce your cost of customer acquisition and reward your
+                  customers for sharing their data.
                 </p>
               </div>
             </div>

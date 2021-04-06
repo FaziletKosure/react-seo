@@ -15,7 +15,7 @@ const Benefits = () => {
                   <img src={savemoney} loading="lazy" alt="savemoney" />
                 </div>
                 <h2>Save Money</h2>
-                <p>Exchange your data for discounts,gift cards or cash.</p>
+                <p>Exchange your data for discounts, gift cards or cash.</p>
               </div>
             </div>
             <div className="col-md-4 col-sm-12 py-5">
@@ -33,7 +33,7 @@ const Benefits = () => {
                   <img src={transparency} loading="lazy" alt="transparency" />
                 </div>
                 <h2>Transparency</h2>
-                <p>Know exactly what happens to your data</p>
+                <p>Know exactly what happens to your data.</p>
               </div>
             </div>
           </div>

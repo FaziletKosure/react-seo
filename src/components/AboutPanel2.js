@@ -40,7 +40,7 @@ const AboutPanel2 = () => {
                 </div>
                 <h2>Trust</h2>
                 <p>
-                  trust builds trust needed as our lives are more and more
+                  Transparency builds trust needed as our lives become more
                   publicly available.
                 </p>
               </div>

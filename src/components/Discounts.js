@@ -10,8 +10,8 @@ const Discounts = () => {
             <div className="discounts-about-left-box">
               <h1>Get discounts with your data</h1>
               <p>
-                Muna.io is a data monetisation platform, where you get the best
-                deals in exchange for your data
+                Muna is a data monetisation app where you get the best deals in
+                exchange for your data in 3 steps.
               </p>
               <ol>
                 <li>Swipe for best deals</li>

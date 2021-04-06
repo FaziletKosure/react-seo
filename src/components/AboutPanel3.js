@@ -16,9 +16,9 @@ const AboutPanel3 = () => {
           />
         </aside>
         <h1 className="flex-width">
-          Company culture We all come from different cultures with different
-          stories. We embrace our differences and believe that transparency
-          creates trust and success.
+          We all come from different cultures with different stories. We embrace
+          our differences and believe that transparency creates trust and
+          success.
         </h1>
 
         <aside className="right-quote">
