@@ -18,7 +18,7 @@ const Footer = () => {
                   aria-label="facebook"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.facebook.com/Munamarketplace/"
+                  href="https://www.facebook.com/MunaDataTravel/"
                 >
                   <i className="fab fa-facebook-f"></i>
                 </a>

@@ -27,7 +27,7 @@ const AboutPanel4 = () => {
                         aria-label="twitter"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://www.linkedin.com/in/sanna-toropainen/"
                       >
                         <i className="fab fa-twitter"></i>
                       </a>
@@ -37,7 +37,7 @@ const AboutPanel4 = () => {
                         aria-label="linkedin"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://www.linkedin.com/in/sanna-toropainen/"
                       >
                         <i className="fab fa-linkedin"></i>
                       </a>
@@ -47,7 +47,7 @@ const AboutPanel4 = () => {
                         aria-label="github"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://www.linkedin.com/in/sanna-toropainen/"
                       >
                         <i className="fab fa-github"></i>
                       </a>
@@ -57,7 +57,7 @@ const AboutPanel4 = () => {
                         aria-label="envelope"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="mailto:sanna@muna.io"
                       >
                         <i className="far fa-envelope"></i>
                       </a>
@@ -82,7 +82,7 @@ const AboutPanel4 = () => {
                         aria-label="twitter"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://twitter.com/dewotak?lang=en"
                       >
                         <i className="fab fa-twitter"></i>
                       </a>
@@ -92,7 +92,7 @@ const AboutPanel4 = () => {
                         aria-label="linkedin"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://www.linkedin.com/in/dennywong/"
                       >
                         <i className="fab fa-linkedin"></i>
                       </a>
@@ -102,7 +102,7 @@ const AboutPanel4 = () => {
                         aria-label="github"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://github.com/Denny-Wong"
                       >
                         <i className="fab fa-github"></i>
                       </a>
@@ -112,7 +112,7 @@ const AboutPanel4 = () => {
                         aria-label="envelope"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="mailto:denny@muna.io"
                       >
                         <i className="far fa-envelope"></i>
                       </a>
@@ -137,7 +137,7 @@ const AboutPanel4 = () => {
                         aria-label="twitter"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://twitter.com/antoinesmolders?lang=en"
                       >
                         <i className="fab fa-twitter"></i>
                       </a>
@@ -147,7 +147,7 @@ const AboutPanel4 = () => {
                         aria-label="linkedin"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://www.linkedin.com/in/antoinesmolders/"
                       >
                         <i className="fab fa-linkedin"></i>
                       </a>
@@ -157,7 +157,7 @@ const AboutPanel4 = () => {
                         aria-label="github"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://www.linkedin.com/in/antoinesmolders/"
                       >
                         <i className="fab fa-github"></i>
                       </a>
@@ -167,7 +167,7 @@ const AboutPanel4 = () => {
                         aria-label="envelope"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://www.linkedin.com/in/antoinesmolders/"
                       >
                         <i className="far fa-envelope"></i>
                       </a>
@@ -194,7 +194,7 @@ const AboutPanel4 = () => {
                         aria-label="twitter"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://www.linkedin.com/in/daria-kuznetsova-0108/"
                       >
                         <i className="fab fa-twitter"></i>
                       </a>
@@ -204,7 +204,7 @@ const AboutPanel4 = () => {
                         aria-label="linkedin"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://www.linkedin.com/in/daria-kuznetsova-0108/"
                       >
                         <i className="fab fa-linkedin"></i>
                       </a>
@@ -215,7 +215,7 @@ const AboutPanel4 = () => {
                         aria-label="github"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="https://github.com/DariaK0108"
                       >
                         <i className="fab fa-github"></i>
                       </a>
@@ -225,7 +225,7 @@ const AboutPanel4 = () => {
                         aria-label="envelope"
                         target="_blank"
                         rel="noreferrer"
-                        href="#"
+                        href="mailto: daria.kuznetsova.aero.obs.mip@gmail.com"
                       >
                         <i className="far fa-envelope"></i>
                       </a>
