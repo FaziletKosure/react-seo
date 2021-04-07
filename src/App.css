@@ -233,28 +233,13 @@ footer.container {
 }
 .aboutpanel4 .circle img {
   border-radius: 25%;
-}
-.aboutpanel4 .aboutpanel4-name {
-  /* width: 20rem; */
-  /* position: absolute; */
-  /* bottom: 16%;
-  left: 50%; */
-  /* background: white;
-  transform: translate(-50%, -50%); */
+  width: 70%;
+  height: auto;
 }
 
 .custom-panel1-img {
   margin-top: 10rem;
   margin-bottom: 3rem;
-}
-
-.aboutpanel4 .aboutpanel4-job {
-  /* width: 15rem; */
-  /* position: absolute; */
-  /* background: white; */
-  /* bottom: 7%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
 }
 
 .aboutpanel4 h2 {
