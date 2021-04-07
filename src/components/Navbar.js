@@ -37,7 +37,6 @@ const Navbar = ({ isTabletOrMobile }) => {
             <Link
               to="/"
               className="nav-a"
-              href="#"
               data-toggle="collapse"
               data-target=".navbar-collapse.show"
             >
