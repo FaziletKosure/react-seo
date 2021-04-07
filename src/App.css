@@ -131,10 +131,9 @@ ol li {
 footer {
   padding: 2rem 0;
 }
-.policy-footer {
-  -webkit-text-stroke: 0.1px black;
-  text-shadow: 0.1px 0 #000, 0.1px 0 #000, 0.1px 0.1px 0 #000;
-  color: var(--primary-pink);
+
+.footer-box-img {
+  text-align: right;
 }
 
 .footer-middle li a {
@@ -148,6 +147,11 @@ footer i {
   color: var(--primary-pink);
   font-size: 2.5rem;
   padding: 0 1rem;
+  transition: all 0.2s ease-in-out;
+}
+footer i:hover {
+  color: var(--primary-black);
+  transform: scale(1.1);
 }
 
 #container {
@@ -223,6 +227,10 @@ footer.container {
 .aboutpanel3 h1 {
   font-size: 2rem;
 }
+
+.panel3-quote {
+  width: 3rem;
+}
 .aboutpanel4 .circle img {
   border-radius: 25%;
 }
@@ -276,6 +284,12 @@ footer.container {
   color: var(--primary-grey);
   font-size: 2rem;
   padding-right: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.aboutpanel4-smedia i:hover {
+  color: var(--primary-black);
+  transform: scale(1.1);
 }
 
 .charter-header {
@@ -336,13 +350,9 @@ footer.container {
     width: 100%;
   }
 
-  .panel3-quote {
-    width: 3rem;
-  }
   .discount-btn-div button,
   .dataconsumer button {
     height: 35px;
-    /* width: 300px; */
   }
 }
 

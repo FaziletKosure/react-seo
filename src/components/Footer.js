@@ -91,7 +91,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-md-4 footer-box  ">
+          <div className="col-md-4 footer-box footer-box-img  ">
             <ul className="list-inline ">
               <li className="list-inline-item">
                 <a
