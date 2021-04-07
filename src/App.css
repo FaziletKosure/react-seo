@@ -268,7 +268,7 @@ footer.container {
 .aboutpanel4-smedia i {
   color: var(--primary-grey);
   font-size: 2rem;
-  padding-right: 1rem;
+  padding: 0.6rem;
   transition: all 0.2s ease-in-out;
 }
 
@@ -589,7 +589,7 @@ footer.container {
 }
 @media (max-width: 600px) {
   .policy .container {
-    max-width: 25rem !important;
+    max-width: 27rem !important;
   }
 }
 
