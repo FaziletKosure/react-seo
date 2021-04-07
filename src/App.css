@@ -320,6 +320,10 @@ footer.container {
   html {
     font-size: 10px;
   }
+  .modal-dialog {
+    border: 0 !important;
+    position: relative;
+  }
   .footer-box {
     text-align: center;
   }
@@ -568,6 +572,9 @@ footer.container {
   .modal-content {
     position: relative;
   }
+  #policyModel > div {
+    min-height: calc(100% - 79.5rem);
+  }
   .modal-dialog .modal-ghost {
     background-color: var(--primary-pink);
     max-width: 4rem;
@@ -582,7 +589,7 @@ footer.container {
 }
 @media (max-width: 600px) {
   .policy .container {
-    max-width: 20rem !important;
+    max-width: 25rem !important;
   }
 }
 
