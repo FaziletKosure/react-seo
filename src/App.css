@@ -140,15 +140,6 @@ footer {
   text-align: right;
 }
 
-.footer-box-img p i {
-  font-size: 1.5rem;
-  color: var(--primary-grey);
-}
-
-.footer-box-img span a {
-  color: var(--primary-black);
-}
-
 .footer-middle li a {
   color: var(--primary-black);
   padding-right: 1rem;
@@ -163,8 +154,14 @@ footer i {
   transition: all 0.2s ease-in-out;
 }
 .footer-box-img p i {
-  font-size: 1.5rem;
-  color: var(--primary-grey);
+  font-size: 1.3rem;
+  /* color: var(--primary-grey); */
+  text-shadow: none;
+  -webkit-text-stroke: none;
+}
+.footer-box-img span a {
+  color: var(--primary-black);
+  font-size: 1.06rem;
 }
 footer i:hover {
   color: var(--primary-black);
