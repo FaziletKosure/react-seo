@@ -15,8 +15,8 @@ const Discounts = () => {
               </p>
               <ol>
                 <li>Swipe for best deals</li>
-                <li>Accept data exchange offers</li>
-                <li>Share data and collect your rewards</li>
+                <li>Exchange your data</li>
+                <li>Collect your rewards</li>
               </ol>
               <div className="discount-btn-div container">
                 <button>Download</button>
