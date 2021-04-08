@@ -144,9 +144,10 @@ footer {
   font-size: 1.5rem;
   color: var(--primary-grey);
 }
-/* .footer-box-img img {
-  max-width: 6rem;
-} */
+
+.footer-box-img span a {
+  color: var(--primary-black);
+}
 
 .footer-middle li a {
   color: var(--primary-black);
@@ -154,12 +155,16 @@ footer {
   font-size: 1.2rem;
 }
 footer i {
-  /* -webkit-text-stroke: 1px black;
-  text-shadow: 0.5px 0 #000, 0.5px 0 #000, 0.5px 0.5px 0 #000; */
-  color: var(--primary-grey);
+  -webkit-text-stroke: 1px black;
+  text-shadow: 0.5px 0 #000, 0.5px 0 #000, 0.5px 0.5px 0 #000;
+  color: var(--primary-pink);
   font-size: 2.1rem;
   padding: 0 0.5rem;
   transition: all 0.2s ease-in-out;
+}
+.footer-box-img p i {
+  font-size: 1.5rem;
+  color: var(--primary-grey);
 }
 footer i:hover {
   color: var(--primary-black);

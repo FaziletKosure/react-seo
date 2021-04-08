@@ -25,7 +25,7 @@ function App() {
               <>
                 <Navbar isTabletOrMobile={isTabletOrMobile} />
                 <Consumer />
-                <div></div>
+
                 <a
                   href="#"
                   aria-label="up-angle"

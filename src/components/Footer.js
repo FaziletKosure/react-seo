@@ -132,11 +132,25 @@ const Footer = () => {
             <p>
               <span>
                 Contact:
-                <i class="fas fa-phone-square"></i>+3249465559
+                <a
+                  aria-label="envelope"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="tel:+32493784070"
+                >
+                  <i class="fas fa-phone-square"></i>+3249465559
+                </a>
               </span>
 
               <span>
-                <i class="far fa-envelope"></i>sanna@muna.io
+                <a
+                  aria-label="envelope"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="mailto:sanna@muna.io"
+                >
+                  <i class="far fa-envelope"></i>sanna@muna.io
+                </a>
               </span>
             </p>
             <ul className="list-inline">
