@@ -106,7 +106,19 @@ export const PolicyModal = ({ question, answer, text }) => {
               Tempore explicabo recusandae fugit dolores, dolorem quo est dolore
               vitae autem minus dolor saepe exercitationem quaerat sequi
               inventore veniam porro nobis officiis quas obcaecati labore!
-              Ducimus!
+              Ducimus!ducimus excepturi quidem necessitatibus dolores soluta
+              eius exercitationem fugiat vitae nobis velit delectus! Fuga magnam
+              id sint enim, dolor labore repellat laudantium culpa assumenda
+              dolore expedita autem tempora sit debitis sunt. Maxime rem totam,
+              rerum dolorem veniam placeat assumenda magnam vitae nulla
+              architecto. Aliquam esse corporis reprehenderit fugit error quia
+              molestiae vel quos quas natus accusamus nemo rem possimus,
+              voluptas ipsam beatae dolorem cum earum laboriosam consequuntur!
+              Placeat nulla culpa excepturi tenetur unde, vero eligendi maiores
+              veritatis, sit eos modi eum a. Tempore explicabo recusandae fugit
+              dolores, dolorem quo est dolore vitae autem minus dolor saepe
+              exercitationem quaerat sequi inventore veniam porro nobis officiis
+              quas obcaecati labore! Ducimus!
             </div>
 
             {/* Modal footer  */}

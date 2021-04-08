@@ -112,9 +112,34 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          {/* <div className="col-md-3 footer-box footer-contact">
+            <h5>Contact us</h5>
+            <div className="contact">
+              <p>
+                <span>
+                  <i class="fas fa-phone-square"></i> +3249465559{" "}
+                </span>
+              </p>
+              <p>
+                <span>
+                  <i class="far fa-envelope"></i> sanna@muna.io
+                </span>
+              </p>
+            </div>
+          </div> */}
 
           <div className="col-md-4 footer-box footer-box-img  ">
-            <ul className="list-inline ">
+            <p>
+              <span>
+                Contact:
+                <i class="fas fa-phone-square"></i>+3249465559
+              </span>
+
+              <span>
+                <i class="far fa-envelope"></i>sanna@muna.io
+              </span>
+            </p>
+            <ul className="list-inline">
               <li className="list-inline-item">
                 <a
                   aria-label="apple-store"
