@@ -25,6 +25,27 @@ const Footer = () => {
               </li>
               <li className="list-inline-item">
                 <a
+                  aria-label="twitter"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/dewotak?lang=en"
+                >
+                  <i className="fab fa-twitter"></i>
+                </a>
+              </li>
+
+              <li className="list-inline-item">
+                <a
+                  aria-label="medium"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://dewotak.medium.com/the-secret-muna-master-plan-baf1bd24dd49"
+                >
+                  <i className="fab fa-medium-m"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a
                   aria-label="linkedin"
                   target="_blank"
                   rel="noreferrer"
@@ -33,6 +54,7 @@ const Footer = () => {
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
+
               <li className="list-inline-item">
                 <a
                   aria-label="instagram"
@@ -44,7 +66,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-            <div className=" box">
+            <div className="Copyright-box">
               <p className="copyright quick-links">
                 &copy; Copyright {new Date().getFullYear()} Muna.io
               </p>
